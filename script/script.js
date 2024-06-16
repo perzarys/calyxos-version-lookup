@@ -105,8 +105,9 @@ function displayDetails() {
         </thead>
         <tbody>
           <tr>
-            <td>Device</td>
-            <td colspan="2">${selectedDevice}</td>
+          <tr>
+            <td>GitLab</td>
+            <td colspan="2"><a href=${selectedObject.issue_url}>${selectedBuild}</a></td>
           </tr>
           <tr>
             <td>Android version</td>
@@ -115,10 +116,6 @@ function displayDetails() {
           <tr>
             <td>Security Patch</td>
             <td colspan="2">${selectedObject.security_patch}</td>
-          </tr>
-          <tr>
-            <td>CalyxOS version</td>
-            <td colspan="2"><a href=${selectedObject.issue_url}>${selectedBuild}</a></td>
           </tr>
           <tr>
             <td>Build Number</td>
