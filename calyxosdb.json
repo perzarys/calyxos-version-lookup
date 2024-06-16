@@ -1,7 +1,7 @@
 {
     "5.8.0": {
         "build": "24508000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-06-05",
         "devices": {
             "akita | Pixel 8a": {
@@ -204,7 +204,7 @@
     },
     "5.7.2": {
         "build": "24507020",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-05-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -575,7 +575,7 @@
     },
     "5.7.3": {
         "build": "24507030",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-05-05",
         "devices": {
             "bonito | Pixel 3a XL": {
@@ -666,7 +666,7 @@
     },
     "5.7.0": {
         "build": "24507000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-05-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -1037,7 +1037,7 @@
     },
     "5.7.1": {
         "build": "24507010",
-        "andoid_version": "14.0 QPR1",
+        "android_version": "14.0 QPR1",
         "security_patch": "2024-05-05",
         "devices": {
             "akita | Pixel 8a": {
@@ -1058,7 +1058,7 @@
     },
     "5.6.3": {
         "build": "24506030",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-04-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -1429,7 +1429,7 @@
     },
     "5.6.2": {
         "build": "24506020",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-04-05",
         "devices": {
             "bonito | Pixel 3a XL": {
@@ -1562,7 +1562,7 @@
     },
     "5.6.1": {
         "build": "24506010",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-04-05",
         "devices": {
             "FP5 | Fairphone 5": {
@@ -1583,7 +1583,7 @@
     },
     "5.6.0": {
         "build": "24506000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "tbd",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -1898,7 +1898,7 @@
     },
     "5.5.3": {
         "build": "24505030",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-03-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -1961,7 +1961,7 @@
     },
     "5.5.2": {
         "build": "24505020",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-03-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -2234,7 +2234,7 @@
     },
     "5.5.1": {
         "build": "24505010",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-03-05",
         "devices": {
             "bramble | Pixel 4a (5G)": {
@@ -2269,7 +2269,7 @@
     },
     "5.5.0": {
         "build": "24505000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-03-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -2430,7 +2430,7 @@
     },
     "5.4.2-2": {
         "build": "24504022",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-02-05",
         "devices": {
             "FP5 | Fairphone 5": {
@@ -2451,7 +2451,7 @@
     },
     "5.4.1": {
         "build": "24504010",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-02-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -2808,7 +2808,7 @@
     },
     "4.18.0": {
         "build": "24418000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-01-05",
         "devices": {
             "coral | Pixel 4 XL": {
@@ -2857,7 +2857,7 @@
     },
     "5.4.0": {
         "build": "24504000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-02-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -3116,7 +3116,7 @@
     },
     "5.3.1-4": {
         "build": "24503014",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-01-05",
         "devices": {
             "bonito | Pixel 3a XL": {
@@ -3179,7 +3179,7 @@
     },
     "5.3.2": {
         "build": "24503020",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-01-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -3382,7 +3382,7 @@
     },
     "5.3.1-2": {
         "build": "24503012",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-01-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -3403,7 +3403,7 @@
     },
     "5.3.1": {
         "build": "24503010",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2024-01-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -3466,7 +3466,7 @@
     },
     "4.17.0": {
         "build": "24417000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2024-01-05",
         "devices": {
             "coral | Pixel 4 XL": {
@@ -3515,7 +3515,7 @@
     },
     "5.2.1": {
         "build": "23502010",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -3788,7 +3788,7 @@
     },
     "5.2.0-9": {
         "build": "23502009",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "hawao | moto g42": {
@@ -3809,7 +3809,7 @@
     },
     "5.2.0-8": {
         "build": "23502008",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -3844,7 +3844,7 @@
     },
     "5.2.0-4": {
         "build": "23502004",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "bramble | Pixel 4a (5G)": {
@@ -3893,7 +3893,7 @@
     },
     "5.2.0-6": {
         "build": "235020006",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "bonito | Pixel 3a XL": {
@@ -3970,7 +3970,7 @@
     },
     "5.3.0": {
         "build": "24503000",
-        "andoid_version": "14",
+        "android_version": "14",
         "security_patch": "2024-01-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -4159,7 +4159,7 @@
     },
     "5.2.0-2": {
         "build": "23502002",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "lynx | Pixel 7a": {
@@ -4208,7 +4208,7 @@
     },
     "4.16.0": {
         "build": "23416000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-12-05",
         "devices": {
             "coral | Pixel 4 XL": {
@@ -4257,7 +4257,7 @@
     },
     "5.2.0": {
         "build": "23502000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-12-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -4376,7 +4376,7 @@
     },
     "5.1.2-4": {
         "build": "23501024",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-11-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -4397,7 +4397,7 @@
     },
     "5.1.3": {
         "build": "23501030",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-11-05",
         "devices": {
             "husky | Pixel 8 Pro": {
@@ -4432,7 +4432,7 @@
     },
     "5.1.2": {
         "build": "23501020",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-11-01",
         "devices": {
             "felix | Pixel Fold": {
@@ -4607,7 +4607,7 @@
     },
     "4.15.1-2": {
         "build": "23415012",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-11-05",
         "devices": {
             "coral | Pixel 4 XL": {
@@ -4684,7 +4684,7 @@
     },
     "4.15.0": {
         "build": "23415000",
-        "andoid_version": "13",
+        "android_version": "13",
         "security_patch": "2023-11-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -4817,13 +4817,13 @@
     },
     "5.1.1": {
         "build": "23501012",
-        "andoid_version": "14",
+        "android_version": "14",
         "security_patch": "2023-11-05",
         "devices": {}
     },
     "5.1.0": {
         "build": "23501000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-11-05",
         "devices": {
             "felix | Pixel Fold": {
@@ -4984,7 +4984,7 @@
     },
     "4.14.2": {
         "build": "23414020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-10-06",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -5159,7 +5159,7 @@
     },
     "5.0.3": {
         "build": "23500030",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-10-06",
         "devices": {
             "felix | Pixel Fold": {
@@ -5320,7 +5320,7 @@
     },
     "5.0.2": {
         "build": "23500020",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-10-06",
         "devices": {
             "felix | Pixel Fold": {
@@ -5481,7 +5481,7 @@
     },
     "5.0.1": {
         "build": "23500010",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-10-06",
         "devices": {
             "felix | Pixel Fold": {
@@ -5642,7 +5642,7 @@
     },
     "4.14.1": {
         "build": "23414010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-10-06",
         "devices": {
             "felix | Pixel Fold": {
@@ -5803,7 +5803,7 @@
     },
     "5.0.0": {
         "build": "23500000",
-        "andoid_version": "14.0",
+        "android_version": "14.0",
         "security_patch": "2023-10-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -5824,7 +5824,7 @@
     },
     "4.14.0": {
         "build": "23414000",
-        "andoid_version": "4.14.0",
+        "android_version": "4.14.0",
         "security_patch": "2023-10-06",
         "devices": {
             "felix | Pixel Fold": {
@@ -6111,7 +6111,7 @@
     },
     "4.13.4": {
         "build": "23413040",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-09-01",
         "devices": {
             "felix | Pixel Fold": {
@@ -6398,7 +6398,7 @@
     },
     "4.13.3": {
         "build": "23413030",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-09-01",
         "devices": {
             "felix | Pixel Fold": {
@@ -6643,7 +6643,7 @@
     },
     "4.13.2": {
         "build": "23413020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-09-01?",
         "devices": {
             "felix | Pixel Fold": {
@@ -6930,7 +6930,7 @@
     },
     "4.13.1": {
         "build": "23413010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-09-01?",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -6951,7 +6951,7 @@
     },
     "4.13.0": {
         "build": "23413000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-09-01?",
         "devices": {
             "felix | Pixel Fold": {
@@ -7238,7 +7238,7 @@
     },
     "4.12.2": {
         "build": "23412020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-08-05",
         "devices": {
             "felix | Pixel Fold": {
@@ -7525,7 +7525,7 @@
     },
     "4.12.1": {
         "build": "23412010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-08-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -7546,7 +7546,7 @@
     },
     "4.12.0": {
         "build": "23412000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-08-05",
         "devices": {
             "felix | Pixel Fold": {
@@ -7833,13 +7833,13 @@
     },
     "4.11.2": {
         "build": "23411020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-07-05",
         "devices": {}
     },
     "4.11.1": {
         "build": "23411010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-07-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -7860,7 +7860,7 @@
     },
     "4.11.3": {
         "build": "23411030",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-07-05",
         "devices": {
             "felix | Pixel Fold": {
@@ -8147,7 +8147,7 @@
     },
     "4.11.0": {
         "build": "23411000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-07-05",
         "devices": {
             "lynx | Pixel 7a": {
@@ -8406,7 +8406,7 @@
     },
     "4.10.2-2": {
         "build": "23410022",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-06-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -8427,7 +8427,7 @@
     },
     "4.10.1": {
         "build": "23410010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-06-05",
         "devices": {
             "lynx | Pixel 7a": {
@@ -8686,7 +8686,7 @@
     },
     "4.10.0-4": {
         "build": "23410004",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -8707,7 +8707,7 @@
     },
     "4.10.0-2": {
         "build": "23410002",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "lynx | Pixel 7a": {
@@ -8728,7 +8728,7 @@
     },
     "4.10.0": {
         "build": "23410000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -8959,7 +8959,7 @@
     },
     "4.10.2": {
         "build": "23410020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-06-05",
         "devices": {
             "lynx | Pixel 7a": {
@@ -9218,7 +9218,7 @@
     },
     "4.9.4": {
         "build": "23409040",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -9463,7 +9463,7 @@
     },
     "4.9.3-2": {
         "build": "23409032",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "lynx | Pixel 7a": {
@@ -9484,7 +9484,7 @@
     },
     "4.9.2": {
         "build": "23409020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -9519,7 +9519,7 @@
     },
     "4.9.1": {
         "build": "230409010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "barbet | Pixel 5a": {
@@ -9568,7 +9568,7 @@
     },
     "4.9.0": {
         "build": "23409000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-05-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -9771,7 +9771,7 @@
     },
     "4.8.3": {
         "build": "23408030",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-04-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -10016,7 +10016,7 @@
     },
     "4.8.2": {
         "build": "23408020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-04-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -10037,7 +10037,7 @@
     },
     "4.8.1": {
         "build": "23408010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-04-05",
         "devices": {
             "bonito | Pixel 3a XL": {
@@ -10128,7 +10128,7 @@
     },
     "4.8.0": {
         "build": "23408000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-04-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -10289,7 +10289,7 @@
     },
     "4.7.7": {
         "build": "23407070",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-03-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -10520,7 +10520,7 @@
     },
     "4.7.5": {
         "build": "23407050",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-03-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -10765,7 +10765,7 @@
     },
     "4.7.4": {
         "build": "23407040",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-03-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -10814,7 +10814,7 @@
     },
     "4.7.3": {
         "build": "23407030",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-03-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -10863,7 +10863,7 @@
     },
     "4.7.2": {
         "build": "22407020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-03-05",
         "devices": {
             "coral | Pixel 4 XL": {
@@ -10954,7 +10954,7 @@
     },
     "4.7.1": {
         "build": "23407010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-02-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -11003,7 +11003,7 @@
     },
     "4.7.0": {
         "build": "23407000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-03-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -11178,7 +11178,7 @@
     },
     "4.7.6": {
         "build": "23407060",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-03-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -11409,7 +11409,7 @@
     },
     "4.6.1": {
         "build": "23406010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-02-05",
         "devices": {
             "bonito | Pixel 3a XL": {
@@ -11486,7 +11486,7 @@
     },
     "4.5.2": {
         "build": "23405020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-01-05",
         "devices": {
             "axolotl | SHIFT6mq": {
@@ -11507,7 +11507,7 @@
     },
     "4.6.0": {
         "build": "23406000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-02-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -11752,7 +11752,7 @@
     },
     "4.5.1": {
         "build": "22405010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-01-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -11983,7 +11983,7 @@
     },
     "4.5.0": {
         "build": "22405000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2023-01-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -12214,7 +12214,7 @@
     },
     "4.4.1": {
         "build": "22404010",
-        "andoid_version": "13",
+        "android_version": "13",
         "security_patch": "2022-12-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -12445,7 +12445,7 @@
     },
     "4.4.0": {
         "build": "22404000",
-        "andoid_version": "13.0 QPR1",
+        "android_version": "13.0 QPR1",
         "security_patch": "2022-12-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -12676,7 +12676,7 @@
     },
     "4.3.2-2": {
         "build": "22403022",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-11-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -12725,7 +12725,7 @@
     },
     "4.3.2": {
         "build": "22403020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-11-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -12914,7 +12914,7 @@
     },
     "4.3.1-2": {
         "build": "22403012",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-11-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -12963,7 +12963,7 @@
     },
     "4.3.1": {
         "build": "22403010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-11-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -13124,7 +13124,7 @@
     },
     "4.3.0": {
         "build": "22403000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-11-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -13313,7 +13313,7 @@
     },
     "4.2.7": {
         "build": "22402070",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -13544,7 +13544,7 @@
     },
     "4.2.6": {
         "build": "22402060",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -13775,7 +13775,7 @@
     },
     "4.2.5": {
         "build": "22402050",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -13824,7 +13824,7 @@
     },
     "4.2.4": {
         "build": "22402040",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "cheetah | Pixel 7 Pro": {
@@ -13859,7 +13859,7 @@
     },
     "4.2.3": {
         "build": "22402030",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -13992,7 +13992,7 @@
     },
     "4.2.2": {
         "build": "22402020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -14013,7 +14013,7 @@
     },
     "4.2.1": {
         "build": "22402010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -14034,7 +14034,7 @@
     },
     "4.1.9-2": {
         "build": "22401092",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -14055,7 +14055,7 @@
     },
     "4.2.0 :sunglasses: ": {
         "build": "22402000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-10-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -14188,7 +14188,7 @@
     },
     "4.1.8": {
         "build": "22401080",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -14209,7 +14209,7 @@
     },
     "4.1.7": {
         "build": "22401070",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -14230,7 +14230,7 @@
     },
     "4.1.6": {
         "build": "22401060",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -14363,7 +14363,7 @@
     },
     "4.1.5": {
         "build": "220401050",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "coral | Pixel 4 XL": {
@@ -14398,7 +14398,7 @@
     },
     "4.1.4": {
         "build": "22401040",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -14531,7 +14531,7 @@
     },
     "4.1.3": {
         "build": "22401030",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-09-05",
         "devices": {
             "barbet | Pixel 5a": {
@@ -14636,7 +14636,7 @@
     },
     "4.1.2": {
         "build": "22401020",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "redfin | Pixel 5": {
@@ -14657,7 +14657,7 @@
     },
     "4.1.1": {
         "build": "22401010",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "barbet | Pixel 5a": {
@@ -14692,7 +14692,7 @@
     },
     "4.1.0": {
         "build": "22401000",
-        "andoid_version": "13.0",
+        "android_version": "13.0",
         "security_patch": "2022-09-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -14783,7 +14783,7 @@
     },
     "3.9.0": {
         "build": "22309000",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-09-01",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -14986,7 +14986,7 @@
     },
     "3.8.0-2": {
         "build": "22308020",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-08-05",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -15189,7 +15189,7 @@
     },
     "3.7.3": {
         "build": "22307032",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-07-05 (2022-06-01)",
         "devices": {
             "bluejay | Pixel 6a": {
@@ -15210,7 +15210,7 @@
     },
     "3.7.2": {
         "build": "22307020",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-07-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -15399,7 +15399,7 @@
     },
     "3.7.0": {
         "build": "22307002",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-07-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -15574,7 +15574,7 @@
     },
     "3.6.0-2": {
         "build": "22306002",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-06-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -15749,7 +15749,7 @@
     },
     "3.6.0": {
         "build": "22306000",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-06-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -15924,7 +15924,7 @@
     },
     "3.5.1": {
         "build": "22305010",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-05-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16155,7 +16155,7 @@
     },
     "3.5.0": {
         "build": "22305000",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-05-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16386,7 +16386,7 @@
     },
     "3.4.0": {
         "build": "22304000",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-04-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16561,7 +16561,7 @@
     },
     "3.3.2": {
         "build": "22303020",
-        "andoid_version": "12L",
+        "android_version": "12L",
         "security_patch": "2022-03-05",
         "devices": {
             "FP4 | Fairphone 4": {
@@ -16610,7 +16610,7 @@
     },
     "3.3.1": {
         "build": "22303010",
-        "andoid_version": "12.1",
+        "android_version": "12.1",
         "security_patch": "2022-03-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16645,7 +16645,7 @@
     },
     "3.3.0": {
         "build": "22303000",
-        "andoid_version": "12.0 (12.1/12L)",
+        "android_version": "12.0 (12.1/12L)",
         "security_patch": "2022-03-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16820,7 +16820,7 @@
     },
     "3.2.2": {
         "build": "22302020",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-02-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16855,7 +16855,7 @@
     },
     "3.2.1": {
         "build": "22302010",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-02-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -16890,7 +16890,7 @@
     },
     "2.14.0": {
         "build": "22214000",
-        "andoid_version": "11.0",
+        "android_version": "11.0",
         "security_patch": "2022-02-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -16939,7 +16939,7 @@
     },
     "3.2.0": {
         "build": "22302000",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-02-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -17114,7 +17114,7 @@
     },
     "2.13.0": {
         "build": "22213000",
-        "andoid_version": "11.0",
+        "android_version": "11.0",
         "security_patch": "2022-01-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -17163,7 +17163,7 @@
     },
     "3.1.1": {
         "build": "22301010",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-01-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -17198,7 +17198,7 @@
     },
     "3.1.0": {
         "build": "22301000",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2022-01-05",
         "devices": {
             "barbet | Pixel 5a": {
@@ -17345,7 +17345,7 @@
     },
     "3.0.0": {
         "build": "22300000",
-        "andoid_version": "12.0",
+        "android_version": "12.0",
         "security_patch": "2021-12-05",
         "devices": {
             "raven | Pixel 6 Pro": {
@@ -17520,7 +17520,7 @@
     },
     "2.11.0": {
         "build": "202112110",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-11-01",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -17709,7 +17709,7 @@
     },
     "2.10.0": {
         "build": "202102100",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-10-01",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -17898,7 +17898,7 @@
     },
     "2.9.0": {
         "build": "202109290",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-09-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18087,7 +18087,7 @@
     },
     "2.8.3": {
         "build": "2.8.3",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-08-05",
         "devices": {
             "barbet | Pixel 5a": {
@@ -18108,7 +18108,7 @@
     },
     "2.8.2": {
         "build": "2.8.2",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18283,7 +18283,7 @@
     },
     "2.8.1": {
         "build": "2.8.1",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18458,7 +18458,7 @@
     },
     "2.8.0": {
         "build": "2.8.0",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18633,7 +18633,7 @@
     },
     "2.7.1": {
         "build": "2.7.1",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-07-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -18654,7 +18654,7 @@
     },
     "2.7.0": {
         "build": "2.7.0",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-07-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18829,7 +18829,7 @@
     },
     "2.6.1": {
         "build": "2.6.1",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-06-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19004,7 +19004,7 @@
     },
     "2.5.0": {
         "build": "2021.05.05.12",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-05-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19179,7 +19179,7 @@
     },
     "2.4.0": {
         "build": "2021.04.07.18",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-04-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19354,7 +19354,7 @@
     },
     "2.2.0": {
         "build": "2021.02.02.18",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-02-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19529,7 +19529,7 @@
     },
     "2.1.0": {
         "build": "2021.01.06.14",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2021-01-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19662,7 +19662,7 @@
     },
     "2.0.1": {
         "build": "2020.12.30.12",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2020-12-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19795,7 +19795,7 @@
     },
     "1.0.0": {
         "build": "2020.08.04.12",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2020-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19928,7 +19928,7 @@
     },
     "2.0.0": {
         "build": "2020.12.12.21",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2020-12-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -20061,7 +20061,7 @@
     },
     "1.0.0 (Finally!)": {
         "build": "2020.07.07.12",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "2020-07-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -20180,7 +20180,7 @@
     },
     "1.0.0-beta3": {
         "build": "2020.04.07.17",
-        "andoid_version": null,
+        "android_version": null,
         "security_patch": "April 2020",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -20283,5 +20283,5 @@
             }
         }
     },
-    "last_update": "2024-06-16 12:07:09.514530+00:00"
+    "last_update": "2024-06-16 12:11:47.551782+00:00"
 }
