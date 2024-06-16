@@ -108,7 +108,7 @@ function displayDetails() {
           <tr>
           <tr>
             <td>GitLab</td>
-            <td colspan="2"><a href=${selectedObject.issue_url}>${selectedBuild}</a></td>
+            <td colspan="2"><a href=${selectedObject.issue_url}>CalyxOS ${selectedBuild}</a></td>
           </tr>
           <tr>
             <td>Android version</td>
