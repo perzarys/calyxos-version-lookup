@@ -17520,7 +17520,7 @@
     },
     "2.11.0": {
         "build": "202112110",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-11-01",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -17709,7 +17709,7 @@
     },
     "2.10.0": {
         "build": "202102100",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-10-01",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -17898,7 +17898,7 @@
     },
     "2.9.0": {
         "build": "202109290",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-09-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18087,7 +18087,7 @@
     },
     "2.8.3": {
         "build": "2.8.3",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-08-05",
         "devices": {
             "barbet | Pixel 5a": {
@@ -18108,7 +18108,7 @@
     },
     "2.8.2": {
         "build": "2.8.2",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18283,7 +18283,7 @@
     },
     "2.8.1": {
         "build": "2.8.1",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18458,7 +18458,7 @@
     },
     "2.8.0": {
         "build": "2.8.0",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18633,7 +18633,7 @@
     },
     "2.7.1": {
         "build": "2.7.1",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-07-05",
         "devices": {
             "sunfish | Pixel 4a": {
@@ -18654,7 +18654,7 @@
     },
     "2.7.0": {
         "build": "2.7.0",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-07-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -18829,7 +18829,7 @@
     },
     "2.6.1": {
         "build": "2.6.1",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-06-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19004,7 +19004,7 @@
     },
     "2.5.0": {
         "build": "2021.05.05.12",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-05-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19179,7 +19179,7 @@
     },
     "2.4.0": {
         "build": "2021.04.07.18",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-04-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19354,7 +19354,7 @@
     },
     "2.2.0": {
         "build": "2021.02.02.18",
-        "android_version": null,
+        "android_version": "11.0",
         "security_patch": "2021-02-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19529,7 +19529,7 @@
     },
     "2.1.0": {
         "build": "2021.01.06.14",
-        "android_version": null,
+        "android_version": "11.0.0",
         "security_patch": "2021-01-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19662,7 +19662,7 @@
     },
     "2.0.1": {
         "build": "2020.12.30.12",
-        "android_version": null,
+        "android_version": "11.0.0",
         "security_patch": "2020-12-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19795,7 +19795,7 @@
     },
     "1.0.0": {
         "build": "2020.08.04.12",
-        "android_version": null,
+        "android_version": "10.0",
         "security_patch": "2020-08-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -19928,7 +19928,7 @@
     },
     "2.0.0": {
         "build": "2020.12.12.21",
-        "android_version": null,
+        "android_version": "11.0.0",
         "security_patch": "2020-12-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -20061,7 +20061,7 @@
     },
     "1.0.0 (Finally!)": {
         "build": "2020.07.07.12",
-        "android_version": null,
+        "android_version": "10.0 ",
         "security_patch": "2020-07-05",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -20180,7 +20180,7 @@
     },
     "1.0.0-beta3": {
         "build": "2020.04.07.17",
-        "android_version": null,
+        "android_version": "10.0",
         "security_patch": "April 2020",
         "devices": {
             "taimen | Pixel 2 XL": {
@@ -20283,5 +20283,5 @@
             }
         }
     },
-    "last_update": "2024-06-16 12:11:47.551782+00:00"
+    "last_update": "2024-06-16 12:21:35.445071+00:00"
 }
