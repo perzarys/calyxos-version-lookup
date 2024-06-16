@@ -2,82 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CalyxOS Version Lookup</title>
-   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      color: #333333;
-      font-size: 30px;
-    }
-    h2 {
-      color: #333333;
-      font-size: 22px;
-    }
-    label {
-      font-weight: bold;
-      margin-right: 10px;
-    }
-    select {
-      padding: 8px;
-      font-size: 16px;
-      border-radius: 5px;
-      border: 1px solid #cccccc;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    .details {
-      background-color: #f4f4f4;
-      padding: 15px;
-      border-radius: 5px;
-      border: 1px solid #cccccc;
-      margin-top: 20px;
-      display: none; /* Initially hide the details section */
-    }
-    .details.active {
-      display: block; /* Display details section when active */
-    }
-    .details table {
-      border-collapse: collapse;
-      margin-top: 10px;
-      width: auto; /* Set table width based on content */
-    }
-    .details th, .details td {
-      padding: 8px;
-      text-align: left;
-      border: 1px solid #cccccc;
-    }
-    .details th {
-      background-color: #f0f0f0;
-    }
-    .link {
-      color: #007bff;
-      text-decoration: none;
-      cursor: pointer;
-      transition: color 0.3s ease;
-    }
-    .link:hover {
-      color: #0056b3;
-    }
-  </style>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Lookup tool for recent and historical CalyxOS builds</h1>
-    <p id="lastUpdate"></p>
+    <h1>Lookup tool for recent and historical <a href="https://calyxos.org">CalyxOS</a> builds</h1>
+    <p>This tool is written by me, <a href="https://github.com/perzarys/">perzarys</a>, to allow for an easy retrieval of old builds for testing or development purpose.</p>
+    <p>Some notes before you start:</p>
+    <ul>
+      <li>Not all links work.</li>
+      <li>Newest builds may not have been published yet, or are in testing/beta state.</li>
+      <li>Some builds may have been pulled due to problems.</li>
+      <li>You might not be able to flash old builds due to rollback protection.</li>
+      <li>Use this tool at your own risk.</li>
+    </ul> 
     <div>
-      <label for="buildSelect">Select a Build:</label>
+      <label for="buildSelect">Select a build:</label>
       <select id="buildSelect">
         <option value="">Select a build...</option>
         <!-- Options will be dynamically added using JavaScript -->
@@ -85,13 +27,13 @@
     </div>
 
     <div>
-      <label for="deviceSelect">Select a Device:</label>
+      <label for="deviceSelect">Select a device:</label>
       <select id="deviceSelect">
         <option value="">Select a device...</option>
         <!-- Options will be dynamically added using JavaScript -->
       </select>
     </div>
-
+    
     <div class="details" id="detailsTable">
       <table>
         <thead>
@@ -114,179 +56,20 @@
           </tr>
           <tr>
             <td>CalyxOS version</td>
-            <td id="buildId"></td>
+            <td><a href="#" id="issueUrl"></a></td>
           </tr>
           <tr>
             <td>Build Number</td>
             <td id="buildNumber"></td>
           </tr>
+          
         </tbody>
       </table>
 
       <div id="deviceDetailsTable"></div>
     </div>
-    
+    <p id="lastUpdate"></p>
   </div>
-  
-  <script>
-    const url = 'https://raw.githubusercontent.com/perzarys/calyxos-versiondb/main/calyxosdb.json'; // Replace with your JSON URL
-
-    // Select elements
-    const buildSelect = document.getElementById('buildSelect');
-    const deviceSelect = document.getElementById('deviceSelect');
-    const detailsTable = document.getElementById('detailsTable');
-    const buildIdDisplay = document.getElementById('buildId');
-    const deviceIdDisplay = document.getElementById('deviceId');
-    const buildNumberDisplay = document.getElementById('buildNumber');
-    const androidVersionDisplay = document.getElementById('androidVersion');
-    const securityPatchDisplay = document.getElementById('securityPatch');
-    const deviceDetailsTable = document.getElementById('deviceDetailsTable');
-    const lastUpdateDisplay = document.getElementById('lastUpdate');
-
-    // Initialize empty object to hold JSON data
-    let jsonData = {};
-
-    // Function to fetch JSON data from URL and populate build options
-    function fetchAndPopulateBuilds() {
-      fetch(url)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(data => {
-          jsonData = data; // Store fetched JSON data in jsonData variable
-          const lastUpdate = data.last_update;
-          lastUpdateDisplay.textContent = `Last Updated: ${lastUpdate}`;
-
-          // Clear existing options
-          buildSelect.innerHTML = '<option value="">Select a build...</option>';
-          deviceSelect.innerHTML = '<option value="">Select a device...</option>';
-
-          // Populate build options
-          Object.keys(jsonData).forEach(buildId => {
-            if (buildId !== 'last_update') {
-              const option = document.createElement('option');
-              option.value = buildId;
-              option.textContent = buildId;
-              buildSelect.appendChild(option);
-            }
-          });
-
-          // Automatically trigger selection of the first build
-          if (buildSelect.options.length > 1) {
-            buildSelect.selectedIndex = 1; // Select the first build option (index 1)
-            populateDevices(); // Populate devices for the selected build
-          } else {
-            clearDetails();
-          }
-        })
-        .catch(error => {
-          console.error('There has been a problem with your fetch operation:', error);
-        });
-    }
-
-    // Function to populate device options based on selected build
-    function populateDevices() {
-      const selectedBuild = buildSelect.value;
-      const selectedObject = jsonData[selectedBuild];
-
-      // Clear existing options
-      deviceSelect.innerHTML = '<option value="">Select a device...</option>';
-
-      // Populate device options
-      if (selectedObject && selectedObject.devices) {
-        Object.keys(selectedObject.devices).forEach(device => {
-          const option = document.createElement('option');
-          option.value = device;
-          option.textContent = device;
-          deviceSelect.appendChild(option);
-        });
-
-        // Automatically trigger display of details when a device is selected
-        deviceSelect.addEventListener('change', displayDetails);
-      } else {
-        clearDetails();
-      }
-    }
-
-    // Event listener for build select change
-    buildSelect.addEventListener('change', () => {
-      populateDevices();
-      clearDetails(); // Clear details whenever build selection changes
-    });
-
-    // Function to display details for selected build and device
-    function displayDetails() {
-      const selectedBuild = buildSelect.value;
-      const selectedDevice = deviceSelect.value;
-
-      if (!selectedBuild || !selectedDevice) {
-        clearDetails();
-        return;
-      }
-
-      const selectedObject = jsonData[selectedBuild];
-      if (selectedObject && selectedObject.devices && selectedObject.devices[selectedDevice]) {
-        const deviceDetails = selectedObject.devices[selectedDevice];
-
-        // Update details in HTML table
-        buildIdDisplay.textContent = selectedBuild;
-        deviceIdDisplay.textContent = selectedDevice;
-        buildNumberDisplay.textContent = selectedObject.build;
-        androidVersionDisplay.textContent = selectedObject.android_version;
-        securityPatchDisplay.textContent = selectedObject.security_patch;
-
-        // Construct table for device details
-        const tableHtml = `
-          <table>
-            <thead>
-              <tr>
-                <th>Build Type</th>
-                <th>URL</th>
-                <th>SHA256</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Factory</td>
-                <td><a class="link" href="${deviceDetails.factory.zip}" target="_blank">${deviceDetails.factory.zip}</a></td>
-                <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">${deviceDetails.factory.sha256}</a></td>
-              </tr>
-              <tr>
-                <td>Full OTA</td>
-                <td><a class="link" href="${deviceDetails.full_ota.zip}" target="_blank">${deviceDetails.full_ota.zip}</a></td>
-                <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">${deviceDetails.full_ota.sha256}</a></td>
-              </tr>
-            </tbody>
-          </table>
-        `;
-
-        deviceDetailsTable.innerHTML = tableHtml;
-
-        // Show details section
-        detailsTable.classList.add('active');
-      } else {
-        clearDetails();
-      }
-    }
-
-    // Function to clear details in HTML
-    function clearDetails() {
-      buildIdDisplay.textContent = '';
-      deviceIdDisplay.textContent = '';
-      buildNumberDisplay.textContent = '';
-      deviceDetailsTable.innerHTML = '';
-
-      // Hide details section
-      detailsTable.classList.remove('active');
-    }
-
-    // Automatically fetch builds and populate options when the page loads
-    document.addEventListener('DOMContentLoaded', () => {
-      fetchAndPopulateBuilds();
-    });
-  </script>
+  <script src="script/script.js"></script>
 </body>
 </html>

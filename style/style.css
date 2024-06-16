@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  a {
+    color: rgba(78, 102, 31, 1);
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: rgba(98, 128, 38, 1);
+  }
+  ul {
+    margin: 20px 0;
+  }
+  li  {
+    margin: 3px 0;
+  }
+  h1 {
+    color: #333333;
+    font-size: 30px;
+  }
+  h2 {
+    color: #333333;
+    font-size: 22px;
+  }
+  h3 {
+    margin: 20px 10px;
+  }
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .details {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    display: none; /* Initially hide the details section */
+  }
+  .details.active {
+    display: block; /* Display details section when active */
+  }
+  .details table {
+    margin: 10px;
+    border-collapse: collapse;
+    width: auto; /* Set table width based on content */
+  }
+  .details th, .details td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #cccccc;
+  }
+  .details th {
+    background-color: #f0f0f0;
+  }
