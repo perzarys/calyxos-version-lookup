@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Build and Device, Display Details</title>
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333333;
+    }
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    select {
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #cccccc;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .details {
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-radius: 5px;
+      border: 1px solid #cccccc;
+      margin-top: 20px;
+      display: none; /* Initially hide the details section */
+    }
+    .details.active {
+      display: block; /* Display details section when active */
+    }
+    .details-item {
+      margin-bottom: 10px;
+    }
+    .link {
+      color: #007bff;
+      text-decoration: none;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .link:hover {
+      color: #0056b3;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 10px;
+      width: auto; /* Set table width based on content */
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #cccccc;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Select Build and Device, Display Details</h2>
+
+    <div>
+      <label for="buildSelect">Select a Build:</label>
+      <select id="buildSelect">
+        <option value="">Select a build...</option>
+        <!-- Options will be dynamically added using JavaScript -->
+      </select>
+    </div>
+
+    <div>
+      <label for="deviceSelect">Select a Device:</label>
+      <select id="deviceSelect">
+        <option value="">Select a device...</option>
+        <!-- Options will be dynamically added using JavaScript -->
+      </select>
+    </div>
+
+    <div class="details" id="detailsTable">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Selected Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Build</td>
+            <td id="buildId"></td>
+          </tr>
+          <tr>
+            <td>Device</td>
+            <td id="deviceId"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div id="deviceDetailsTable"></div>
+    </div>
+  </div>
+
+  <script>
+    const url = 'https://raw.githubusercontent.com/perzarys/calyxos-versiondb/main/calyxosdb.json'; // Replace with your JSON URL
+
+    // Select elements
+    const buildSelect = document.getElementById('buildSelect');
+    const deviceSelect = document.getElementById('deviceSelect');
+    const detailsTable = document.getElementById('detailsTable');
+    const buildIdDisplay = document.getElementById('buildId');
+    const deviceIdDisplay = document.getElementById('deviceId');
+    const deviceDetailsTable = document.getElementById('deviceDetailsTable');
+
+    // Initialize empty object to hold JSON data
+    let jsonData = {};
+
+    // Function to fetch JSON data from URL and populate build options
+    function fetchAndPopulateBuilds() {
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          jsonData = data; // Store fetched JSON data in jsonData variable
+
+          // Clear existing options
+          buildSelect.innerHTML = '<option value="">Select a build...</option>';
+          deviceSelect.innerHTML = '<option value="">Select a device...</option>';
+
+          // Populate build options
+          Object.keys(jsonData).forEach(buildId => {
+            const option = document.createElement('option');
+            option.value = buildId;
+            option.textContent = buildId;
+            buildSelect.appendChild(option);
+          });
+
+          // Automatically trigger selection of the first build
+          if (buildSelect.options.length > 1) {
+            buildSelect.selectedIndex = 1; // Select the first build option (index 1)
+            populateDevices(); // Populate devices for the selected build
+          }
+        })
+        .catch(error => {
+          console.error('There has been a problem with your fetch operation:', error);
+        });
+    }
+
+    // Function to populate device options based on selected build
+    function populateDevices() {
+      const selectedBuild = buildSelect.value;
+      const selectedObject = jsonData[selectedBuild];
+
+      // Clear existing options
+      deviceSelect.innerHTML = '<option value="">Select a device...</option>';
+
+      // Populate device options
+      if (selectedObject && selectedObject.devices) {
+        Object.keys(selectedObject.devices).forEach(device => {
+          const option = document.createElement('option');
+          option.value = device;
+          option.textContent = device;
+          deviceSelect.appendChild(option);
+        });
+
+        // Automatically trigger display of details when a device is selected
+        deviceSelect.addEventListener('change', displayDetails);
+      }
+    }
+
+    // Event listener for build select change
+    buildSelect.addEventListener('change', populateDevices);
+
+    // Function to display details for selected build and device
+    function displayDetails() {
+      const selectedBuild = buildSelect.value;
+      const selectedDevice = deviceSelect.value;
+
+      if (!selectedBuild || !selectedDevice) {
+        clearDetails();
+        return;
+      }
+
+      const selectedObject = jsonData[selectedBuild];
+      if (selectedObject && selectedObject.devices && selectedObject.devices[selectedDevice]) {
+        const deviceDetails = selectedObject.devices[selectedDevice];
+
+        // Update details in HTML table
+        buildIdDisplay.textContent = selectedBuild;
+        deviceIdDisplay.textContent = selectedDevice;
+
+        // Construct table for device details
+        const tableHtml = `
+          <table>
+            <thead>
+              <tr>
+                <th>Detail Type</th>
+                <th>URL</th>
+                <th>SHA256</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Factory Build</td>
+                <td><a class="link" href="${deviceDetails.factory.url}" target="_blank">${deviceDetails.factory.url}</a></td>
+                <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">${deviceDetails.factory.sha256}</a></td>
+              </tr>
+              <tr>
+                <td>Incremental OTA</td>
+                <td><a class="link" href="${deviceDetails.incremental.url}" target="_blank">${deviceDetails.incremental.url}</a></td>
+                <td><a class="link" href="${deviceDetails.incremental.sha256}" target="_blank">${deviceDetails.incremental.sha256}</a></td>
+              </tr>
+              <tr>
+                <td>Full OTA</td>
+                <td><a class="link" href="${deviceDetails.full_ota.url}" target="_blank">${deviceDetails.full_ota.url}</a></td>
+                <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">${deviceDetails.full_ota.sha256}</a></td>
+              </tr>
+            </tbody>
+          </table>
+        `;
+
+        deviceDetailsTable.innerHTML = tableHtml;
+
+        // Show details section
+        detailsTable.classList.add('active');
+      } else {
+        clearDetails();
+      }
+    }
+
+    // Function to clear details in HTML
+    function clearDetails() {
+      buildIdDisplay.textContent = '';
+      deviceIdDisplay.textContent = '';
+      deviceDetailsTable.innerHTML = '';
+
+      // Hide details section
+      detailsTable.classList.remove('active');
+    }
+
+    // Automatically fetch builds and populate options when the page loads
+    document.addEventListener('DOMContentLoaded', fetchAndPopulateBuilds);
+  </script>
+</body>
+</html>
