@@ -4,13 +4,8 @@ const url = 'https://raw.githubusercontent.com/perzarys/calyxos-versiondb/main/c
 const buildSelect = document.getElementById('buildSelect');
 const deviceSelect = document.getElementById('deviceSelect');
 const detailsTable = document.getElementById('detailsTable');
-const deviceIdDisplay = document.getElementById('deviceId');
-const buildNumberDisplay = document.getElementById('buildNumber');
-const androidVersionDisplay = document.getElementById('androidVersion');
-const securityPatchDisplay = document.getElementById('securityPatch');
 const deviceDetailsTable = document.getElementById('deviceDetailsTable');
 const lastUpdateDisplay = document.getElementById('lastUpdate');
-const issueUrlDisplay = document.getElementById('issueUrl');
 
 // Initialize empty object to hold JSON data
 let jsonData = {};
@@ -100,34 +95,44 @@ function displayDetails() {
   if (selectedObject && selectedObject.devices && selectedObject.devices[selectedDevice]) {
     const deviceDetails = selectedObject.devices[selectedDevice];
 
-    // Update details in HTML table
-    deviceIdDisplay.textContent = selectedDevice;
-    buildNumberDisplay.textContent = selectedObject.build;
-    androidVersionDisplay.textContent = selectedObject.android_version;
-    securityPatchDisplay.textContent = selectedObject.security_patch;
-    issueUrlDisplay.href = selectedObject.issue_url
-    issueUrlDisplay.textContent = selectedBuild
-
     // Construct table for device details
     const tableHtml = `
       <table>
         <thead>
           <tr>
-            <th>Build Type</th>
-            <th>URL</th>
-            <th>SHA256</th>
+            <th colspan="3">Details</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Factory</td>
-            <td><a class="link" href="${deviceDetails.factory.zip}" target="_blank">${deviceDetails.factory.zip}</a></td>
-            <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">${deviceDetails.factory.sha256}</a></td>
+            <td>Device</td>
+            <td colspan="2">${selectedDevice}</td>
           </tr>
           <tr>
-            <td>Full OTA</td>
-            <td><a class="link" href="${deviceDetails.full_ota.zip}" target="_blank">${deviceDetails.full_ota.zip}</a></td>
-            <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">${deviceDetails.full_ota.sha256}</a></td>
+            <td>Android version</td>
+            <td colspan="2">${selectedObject.android_version}</td>
+          </tr>
+          <tr>
+            <td>Security Patch</td>
+            <td colspan="2">${selectedObject.security_patch}</td>
+          </tr>
+          <tr>
+            <td>CalyxOS version</td>
+            <td colspan="2"><a href=${selectedObject.issue_url}>${selectedBuild}</a></td>
+          </tr>
+          <tr>
+            <td>Build Number</td>
+            <td colspan="2">${selectedObject.build}</td>
+          </tr>
+          <tr>
+            <td><b>Factory</b</td>
+            <td><a class="link" href="${deviceDetails.factory.zip}" target="_blank">ZIP</a></td>
+            <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">SHA256</a></td>
+          </tr>
+          <tr>
+            <td><b>Full OTA</b></td>
+            <td><a class="link" href="${deviceDetails.full_ota.zip}" target="_blank">ZIP</a><br></td>
+            <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">SHA256</a></td>
           </tr>
         </tbody>
       </table>
