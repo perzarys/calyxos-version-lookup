@@ -48,8 +48,18 @@
     .details.active {
       display: block; /* Display details section when active */
     }
-    .details-item {
-      margin-bottom: 10px;
+    .details table {
+      border-collapse: collapse;
+      margin-top: 10px;
+      width: auto; /* Set table width based on content */
+    }
+    .details th, .details td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #cccccc;
+    }
+    .details th {
+      background-color: #f0f0f0;
     }
     .link {
       color: #007bff;
@@ -60,25 +70,13 @@
     .link:hover {
       color: #0056b3;
     }
-    table {
-      border-collapse: collapse;
-      margin-top: 10px;
-      width: auto; /* Set table width based on content */
-    }
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border: 1px solid #cccccc;
-    }
-    th {
-      background-color: #f0f0f0;
-    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Lookup tool for recent and historical CalyxOS builds</h1>
     <h2>Select Build and Device, Display Details</h2>
+    <p id="lastUpdate"></p>
     <div>
       <label for="buildSelect">Select a Build:</label>
       <select id="buildSelect">
@@ -116,8 +114,9 @@
 
       <div id="deviceDetailsTable"></div>
     </div>
+    
   </div>
-
+  
   <script>
     const url = 'https://raw.githubusercontent.com/perzarys/calyxos-versiondb/main/calyxosdb.json'; // Replace with your JSON URL
 
@@ -128,6 +127,7 @@
     const buildIdDisplay = document.getElementById('buildId');
     const deviceIdDisplay = document.getElementById('deviceId');
     const deviceDetailsTable = document.getElementById('deviceDetailsTable');
+    const lastUpdateDisplay = document.getElementById('lastUpdate');
 
     // Initialize empty object to hold JSON data
     let jsonData = {};
@@ -143,6 +143,8 @@
         })
         .then(data => {
           jsonData = data; // Store fetched JSON data in jsonData variable
+          lastUpdate = data.last_update
+          lastUpdateDisplay.textContent = `Last Updated: ${lastUpdate}`;
 
           // Clear existing options
           buildSelect.innerHTML = '<option value="">Select a build...</option>';
@@ -260,7 +262,9 @@
     }
 
     // Automatically fetch builds and populate options when the page loads
-    document.addEventListener('DOMContentLoaded', fetchAndPopulateBuilds);
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchAndPopulateBuilds();
+    });
   </script>
 </body>
 </html>
