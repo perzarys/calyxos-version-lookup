@@ -49,15 +49,14 @@ body {
   }
   .details {
     border-radius: 5px;
-    border: 1px solid #cccccc;
-    margin-top: 20px;
+    margin-top: 10px;
     display: none; /* Initially hide the details section */
   }
   .details.active {
     display: block; /* Display details section when active */
   }
   .details table {
-    margin: 10px;
+    margin: 0;
     border-collapse: collapse;
     width: auto; /* Set table width based on content */
   }
