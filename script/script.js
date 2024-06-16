@@ -149,8 +149,6 @@ function displayDetails() {
 
 // Function to clear details in HTML
 function clearDetails() {
-  deviceIdDisplay.textContent = '';
-  buildNumberDisplay.textContent = '';
   deviceDetailsTable.innerHTML = '';
 
   // Hide details section
