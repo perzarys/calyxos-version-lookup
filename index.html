@@ -166,10 +166,12 @@
 
           // Populate build options
           Object.keys(jsonData).forEach(buildId => {
-            const option = document.createElement('option');
-            option.value = buildId;
-            option.textContent = buildId;
-            buildSelect.appendChild(option);
+            if (buildId !== 'last_update') {
+              const option = document.createElement('option');
+              option.value = buildId;
+              option.textContent = buildId;
+              buildSelect.appendChild(option);
+            }
           });
 
           // Automatically trigger selection of the first build
