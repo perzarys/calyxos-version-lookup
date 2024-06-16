@@ -123,13 +123,13 @@ function displayDetails() {
           </tr>
           <tr>
             <td><b>Factory</b</td>
-            <td><a class="link" href="${deviceDetails.factory.zip}" target="_blank">ZIP</a></td>
-            <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">SHA256</a></td>
+            <td><a class="link" href="${deviceDetails.factory.zip}" target="_blank">zip ↓</a></td>
+            <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">zip.sha256sum ↓</a></td>
           </tr>
           <tr>
             <td><b>Full OTA</b></td>
-            <td><a class="link" href="${deviceDetails.full_ota.zip}" target="_blank">ZIP</a><br></td>
-            <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">SHA256</a></td>
+            <td><a class="link" href="${deviceDetails.full_ota.zip}" target="_blank">zip ↓</a><br></td>
+            <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">zip.sha256sum ↓</a></td>
           </tr>
         </tbody>
       </table>

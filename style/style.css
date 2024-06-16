@@ -14,9 +14,11 @@ body {
   a {
     color: rgba(78, 102, 31, 1);
     transition: color 0.3s ease;
+    text-decoration: none;
   }
   a:hover {
     color: rgba(98, 128, 38, 1);
+    text-decoration: underline;
   }
   ul {
     margin: 20px 0;
