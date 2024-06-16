@@ -85,6 +85,7 @@ buildSelect.addEventListener('change', () => {
 function displayDetails() {
   const selectedBuild = buildSelect.value;
   const selectedDevice = deviceSelect.value;
+  const deviceCodename = selectedDevice.split(" | ")[0];
 
   if (!selectedBuild || !selectedDevice) {
     clearDetails();
@@ -122,12 +123,12 @@ function displayDetails() {
             <td colspan="2">${selectedObject.build}</td>
           </tr>
           <tr>
-            <td><b>Factory</b</td>
+            <td><b>Factory ${deviceCodename}</b</td>
             <td><a class="link" href="${deviceDetails.factory.zip}" target="_blank">zip ↓</a></td>
             <td><a class="link" href="${deviceDetails.factory.sha256}" target="_blank">zip.sha256sum ↓</a></td>
           </tr>
           <tr>
-            <td><b>Full OTA</b></td>
+            <td><b>Full OTA ${deviceCodename}</b></td>
             <td><a class="link" href="${deviceDetails.full_ota.zip}" target="_blank">zip ↓</a><br></td>
             <td><a class="link" href="${deviceDetails.full_ota.sha256}" target="_blank">zip.sha256sum ↓</a></td>
           </tr>
