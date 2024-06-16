@@ -120,7 +120,7 @@ function displayDetails() {
           </tr>
           <tr>
             <td>Build number</td>
-            <td colspan="2"><b>${selectedObject.build}</b></td>
+            <td colspan="2">${selectedObject.build}</td>
           </tr>
           <tr>
             <td><b>Factory ${deviceCodename}</b</td>
