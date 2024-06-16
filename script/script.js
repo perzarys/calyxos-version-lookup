@@ -114,11 +114,11 @@ function displayDetails() {
             <td colspan="2">${selectedObject.android_version}</td>
           </tr>
           <tr>
-            <td>Security Patch</td>
+            <td>Security patch</td>
             <td colspan="2">${selectedObject.security_patch}</td>
           </tr>
           <tr>
-            <td>Build Number</td>
+            <td>Build number</td>
             <td colspan="2">${selectedObject.build}</td>
           </tr>
           <tr>
