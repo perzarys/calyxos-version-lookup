@@ -1,4 +1,112 @@
 {
+    "5.8.1": {
+        "build": "24508010",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2463",
+        "android_version": "14.0",
+        "security_patch": "2024-06-05",
+        "devices": {
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "FP5 | Fairphone 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP5-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "devon | moto g32": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/devon-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/devon-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "hawao | moto g42": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/hawao-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/hawao-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/hawao-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/hawao-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "rhode | moto g52": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/rhode-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/rhode-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-ota_update-24508010.zip.sha256sum"
+                }
+            },
+            "axolotl | SHIFT6mq": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/axolotl-factory-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/axolotl-factory-24508010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/axolotl-ota_update-24508010.zip",
+                    "sha256": "https://release.calyxinstitute.org/axolotl-ota_update-24508010.zip.sha256sum"
+                }
+            }
+        }
+    },
     "5.8.0": {
         "build": "24508000",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2455",
@@ -14937,5 +15045,5 @@
             }
         }
     },
-    "last_update": "2024-06-17 14:15:48.176443+00:00"
+    "last_update": "2024-06-21 19:13:30.221322+00:00"
 }
