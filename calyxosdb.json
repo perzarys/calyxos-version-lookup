@@ -1,6 +1,7 @@
-{
-    "24508012": {
-        "version": "5.8.1",
+[
+    {
+        "build_number": "24508012",
+        "calyxos_version": "5.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2480",
         "android_version": "14.0",
         "security_patch": "2024-06-05",
@@ -37,8 +38,9 @@
             }
         }
     },
-    "24508010": {
-        "version": "5.8.1",
+    {
+        "build_number": "24508010",
+        "calyxos_version": "5.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2463",
         "android_version": "14.0",
         "security_patch": "2024-06-05",
@@ -145,8 +147,9 @@
             }
         }
     },
-    "24508000": {
-        "version": "5.8.0",
+    {
+        "build_number": "24508000",
+        "calyxos_version": "5.8.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2455",
         "android_version": "14.0",
         "security_patch": "2024-06-05",
@@ -293,8 +296,145 @@
             }
         }
     },
-    "24507020": {
-        "version": "5.7.2",
+    {
+        "build_number": "24507020",
+        "calyxos_version": "5.7.2",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2436",
+        "android_version": "14.0",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "devon | moto g32": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/devon-factory-24507020.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-factory-24507020.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/devon-ota_update-24507020.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-ota_update-24507020.zip.sha256sum"
+                }
+            },
+            "rhode | moto g52": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/rhode-factory-24507020.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-factory-24507020.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/rhode-ota_update-24507020.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-ota_update-24507020.zip.sha256sum"
+                }
+            }
+        }
+    },
+    {
+        "build_number": "24507032",
+        "calyxos_version": "5.7.3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2434",
+        "android_version": "14.0",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-24507032.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24507032.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24507032.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24507032.zip.sha256sum"
+                }
+            }
+        }
+    },
+    {
+        "build_number": "24507030",
+        "calyxos_version": "5.7.3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2422",
+        "android_version": "14.0",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-24507030.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-24507030.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-24507030.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-24507030.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-24507030.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-24507030.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-24507030.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-24507030.zip.sha256sum"
+                }
+            },
+            "FP5 | Fairphone 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP5-factory-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24507030.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24507030.zip.sha256sum"
+                }
+            },
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24507030.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24507030.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24507030.zip.sha256sum"
+                }
+            }
+        }
+    },
+    {
+        "build_number": "24507002",
+        "calyxos_version": "5.7.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2379",
+        "android_version": "14.0",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "FP5 | Fairphone 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP5-factory-24507002.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24507002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24507002.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24507002.zip.sha256sum"
+                }
+            }
+        }
+    },
+    {
+        "build_number": "24507020",
+        "calyxos_version": "5.7.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2378",
         "android_version": "14.0",
         "security_patch": "2024-05-05",
@@ -561,112 +701,9 @@
             }
         }
     },
-    "24507032": {
-        "version": "5.7.3",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2434",
-        "android_version": "14.0",
-        "security_patch": "2024-05-05",
-        "devices": {
-            "FP4 | Fairphone 4": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/FP4-factory-24507032.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24507032.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24507032.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24507032.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "24507030": {
-        "version": "5.7.3",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2422",
-        "android_version": "14.0",
-        "security_patch": "2024-05-05",
-        "devices": {
-            "bonito | Pixel 3a XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/bonito-factory-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/bonito-factory-24507030.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-24507030.zip.sha256sum"
-                }
-            },
-            "sargo | Pixel 3a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/sargo-factory-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/sargo-factory-24507030.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-24507030.zip.sha256sum"
-                }
-            },
-            "crosshatch | Pixel 3 XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-24507030.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-24507030.zip.sha256sum"
-                }
-            },
-            "blueline | Pixel 3": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/blueline-factory-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/blueline-factory-24507030.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-24507030.zip.sha256sum"
-                }
-            },
-            "FP5 | Fairphone 5": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/FP5-factory-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24507030.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24507030.zip.sha256sum"
-                }
-            },
-            "FP4 | Fairphone 4": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/FP4-factory-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24507030.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24507030.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24507030.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "24507002": {
-        "version": "5.7.0",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2379",
-        "android_version": "14.0",
-        "security_patch": "2024-05-05",
-        "devices": {
-            "FP5 | Fairphone 5": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/FP5-factory-24507002.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24507002.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24507002.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24507002.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "24507010": {
-        "version": "5.7.1",
+    {
+        "build_number": "24507010",
+        "calyxos_version": "5.7.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2374",
         "android_version": "14.0 QPR1",
         "security_patch": "2024-05-05",
@@ -683,8 +720,9 @@
             }
         }
     },
-    "24507000": {
-        "version": "5.7.0",
+    {
+        "build_number": "24507000",
+        "calyxos_version": "5.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2336",
         "android_version": "14.0",
         "security_patch": "2024-05-05",
@@ -951,8 +989,9 @@
             }
         }
     },
-    "24506030": {
-        "version": "5.6.3",
+    {
+        "build_number": "24506030",
+        "calyxos_version": "5.6.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2309",
         "android_version": "14.0",
         "security_patch": "2024-04-05",
@@ -1219,8 +1258,9 @@
             }
         }
     },
-    "24506020": {
-        "version": "5.6.2",
+    {
+        "build_number": "24506020",
+        "calyxos_version": "5.6.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2296",
         "android_version": "14.0",
         "security_patch": "2024-04-05",
@@ -1317,8 +1357,9 @@
             }
         }
     },
-    "24506010": {
-        "version": "5.6.1",
+    {
+        "build_number": "24506010",
+        "calyxos_version": "5.6.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2260",
         "android_version": "14.0",
         "security_patch": "2024-04-05",
@@ -1335,8 +1376,9 @@
             }
         }
     },
-    "24506000": {
-        "version": "5.6.0",
+    {
+        "build_number": "24506000",
+        "calyxos_version": "5.6.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2253",
         "android_version": "14.0",
         "security_patch": "tbd",
@@ -1563,8 +1605,9 @@
             }
         }
     },
-    "24505030": {
-        "version": "5.5.3",
+    {
+        "build_number": "24505030",
+        "calyxos_version": "5.5.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2233",
         "android_version": "14.0",
         "security_patch": "2024-03-05",
@@ -1611,8 +1654,9 @@
             }
         }
     },
-    "24505020": {
-        "version": "5.5.2",
+    {
+        "build_number": "24505020",
+        "calyxos_version": "5.5.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2223",
         "android_version": "14.0",
         "security_patch": "2024-03-05",
@@ -1809,8 +1853,9 @@
             }
         }
     },
-    "24505012": {
-        "version": "5.5.1",
+    {
+        "build_number": "24505012",
+        "calyxos_version": "5.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2178",
         "android_version": "14.0",
         "security_patch": "2023-03-05",
@@ -1867,8 +1912,9 @@
             }
         }
     },
-    "24505010": {
-        "version": "5.5.1",
+    {
+        "build_number": "24505010",
+        "calyxos_version": "5.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2176",
         "android_version": "14.0",
         "security_patch": "2023-03-05",
@@ -1895,8 +1941,9 @@
             }
         }
     },
-    "24505000": {
-        "version": "5.5.0",
+    {
+        "build_number": "24505000",
+        "calyxos_version": "5.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2165",
         "android_version": "14.0",
         "security_patch": "2023-03-05",
@@ -2013,8 +2060,9 @@
             }
         }
     },
-    "24504022": {
-        "version": "5.4.2-2",
+    {
+        "build_number": "24504022",
+        "calyxos_version": "5.4.2-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2150",
         "android_version": "14.0",
         "security_patch": "2024-02-05",
@@ -2031,8 +2079,9 @@
             }
         }
     },
-    "24504010": {
-        "version": "5.4.1",
+    {
+        "build_number": "24504010",
+        "calyxos_version": "5.4.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2140",
         "android_version": "14.0",
         "security_patch": "2024-02-05",
@@ -2289,8 +2338,9 @@
             }
         }
     },
-    "24418000": {
-        "version": "4.18.0",
+    {
+        "build_number": "24418000",
+        "calyxos_version": "4.18.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2114",
         "android_version": "13.0",
         "security_patch": "2023-01-05",
@@ -2327,8 +2377,9 @@
             }
         }
     },
-    "24504000": {
-        "version": "5.4.0",
+    {
+        "build_number": "24504000",
+        "calyxos_version": "5.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2103",
         "android_version": "14.0",
         "security_patch": "2023-02-05",
@@ -2515,8 +2566,9 @@
             }
         }
     },
-    "24503014": {
-        "version": "5.3.1-4",
+    {
+        "build_number": "24503014",
+        "calyxos_version": "5.3.1-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2082",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2563,8 +2615,9 @@
             }
         }
     },
-    "24503020": {
-        "version": "5.3.2",
+    {
+        "build_number": "24503020",
+        "calyxos_version": "5.3.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2067",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2711,8 +2764,9 @@
             }
         }
     },
-    "24503012": {
-        "version": "5.3.1-2",
+    {
+        "build_number": "24503012",
+        "calyxos_version": "5.3.1-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2066",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2729,8 +2783,9 @@
             }
         }
     },
-    "24503010": {
-        "version": "5.3.1",
+    {
+        "build_number": "24503010",
+        "calyxos_version": "5.3.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2062",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2777,8 +2832,9 @@
             }
         }
     },
-    "24417000": {
-        "version": "4.17.0",
+    {
+        "build_number": "24417000",
+        "calyxos_version": "4.17.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2061",
         "android_version": "13.0",
         "security_patch": "2024-01-05",
@@ -2815,8 +2871,9 @@
             }
         }
     },
-    "24502010": {
-        "version": "5.2.1",
+    {
+        "build_number": "24502010",
+        "calyxos_version": "5.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2056",
         "android_version": "13.0",
         "security_patch": "2023-12-05",
@@ -2853,8 +2910,9 @@
             }
         }
     },
-    "23502010": {
-        "version": "5.2.1",
+    {
+        "build_number": "23502010",
+        "calyxos_version": "5.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2033",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3051,8 +3109,9 @@
             }
         }
     },
-    "23502009": {
-        "version": "5.2.0-9",
+    {
+        "build_number": "23502009",
+        "calyxos_version": "5.2.0-9",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2032",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3069,8 +3128,9 @@
             }
         }
     },
-    "23502008": {
-        "version": "5.2.0-8",
+    {
+        "build_number": "23502008",
+        "calyxos_version": "5.2.0-8",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2026",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3097,8 +3157,9 @@
             }
         }
     },
-    "23502004": {
-        "version": "5.2.0-4",
+    {
+        "build_number": "23502004",
+        "calyxos_version": "5.2.0-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2015",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3135,8 +3196,9 @@
             }
         }
     },
-    "235020006": {
-        "version": "5.2.0-6",
+    {
+        "build_number": "235020006",
+        "calyxos_version": "5.2.0-6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2010",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3193,8 +3255,9 @@
             }
         }
     },
-    "24503000": {
-        "version": "5.3.0",
+    {
+        "build_number": "24503000",
+        "calyxos_version": "5.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2008",
         "android_version": "14",
         "security_patch": "2024-01-05",
@@ -3331,8 +3394,9 @@
             }
         }
     },
-    "23502002": {
-        "version": "5.2.0-2",
+    {
+        "build_number": "23502002",
+        "calyxos_version": "5.2.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2007",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3369,8 +3433,9 @@
             }
         }
     },
-    "23416000": {
-        "version": "4.16.0",
+    {
+        "build_number": "23416000",
+        "calyxos_version": "4.16.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2006",
         "android_version": "13.0",
         "security_patch": "2023-12-05",
@@ -3407,8 +3472,9 @@
             }
         }
     },
-    "23502000": {
-        "version": "5.2.0",
+    {
+        "build_number": "23502000",
+        "calyxos_version": "5.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2005",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3495,8 +3561,9 @@
             }
         }
     },
-    "23501024": {
-        "version": "5.1.2-4",
+    {
+        "build_number": "23501024",
+        "calyxos_version": "5.1.2-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1982",
         "android_version": "14.0",
         "security_patch": "2023-11-05",
@@ -3513,8 +3580,9 @@
             }
         }
     },
-    "23501030": {
-        "version": "5.1.3",
+    {
+        "build_number": "23501030",
+        "calyxos_version": "5.1.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1978",
         "android_version": "14.0",
         "security_patch": "2023-11-05",
@@ -3541,8 +3609,9 @@
             }
         }
     },
-    "23501020": {
-        "version": "5.1.2",
+    {
+        "build_number": "23501020",
+        "calyxos_version": "5.1.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1977",
         "android_version": "14.0",
         "security_patch": "2023-11-01",
@@ -3669,8 +3738,9 @@
             }
         }
     },
-    "23415012": {
-        "version": "4.15.1-2",
+    {
+        "build_number": "23415012",
+        "calyxos_version": "4.15.1-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1974",
         "android_version": "13.0",
         "security_patch": "2023-11-05",
@@ -3727,8 +3797,25 @@
             }
         }
     },
-    "23415000": {
-        "version": "4.15.0",
+    {
+        "build_number": "23415000",
+        "calyxos_version": "4.15.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1963",
+        "android_version": "13.0",
+        "security_patch": "2023-11-05",
+        "devices": {}
+    },
+    {
+        "build_number": "23501012",
+        "calyxos_version": "5.1.1",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1956",
+        "android_version": "14",
+        "security_patch": "2023-11-05",
+        "devices": {}
+    },
+    {
+        "build_number": "23415000",
+        "calyxos_version": "4.15.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1940",
         "android_version": "13",
         "security_patch": "2023-11-05",
@@ -3825,15 +3912,9 @@
             }
         }
     },
-    "23501012": {
-        "version": "5.1.1",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1956",
-        "android_version": "14",
-        "security_patch": "2023-11-05",
-        "devices": {}
-    },
-    "23501000": {
-        "version": "5.1.0",
+    {
+        "build_number": "23501000",
+        "calyxos_version": "5.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1939",
         "android_version": "14.0",
         "security_patch": "2023-11-05",
@@ -3950,8 +4031,9 @@
             }
         }
     },
-    "23414020": {
-        "version": "4.14.2",
+    {
+        "build_number": "23414020",
+        "calyxos_version": "4.14.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1926",
         "android_version": "13.0",
         "security_patch": "2023-10-06",
@@ -4078,8 +4160,9 @@
             }
         }
     },
-    "23500030": {
-        "version": "5.0.3",
+    {
+        "build_number": "23500030",
+        "calyxos_version": "5.0.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1921",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4196,8 +4279,9 @@
             }
         }
     },
-    "23500020": {
-        "version": "5.0.2",
+    {
+        "build_number": "23500020",
+        "calyxos_version": "5.0.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1920",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4314,8 +4398,9 @@
             }
         }
     },
-    "23500010": {
-        "version": "5.0.1",
+    {
+        "build_number": "23500010",
+        "calyxos_version": "5.0.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1909",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4432,8 +4517,9 @@
             }
         }
     },
-    "23414010": {
-        "version": "4.14.1",
+    {
+        "build_number": "23414010",
+        "calyxos_version": "4.14.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1905",
         "android_version": "13.0",
         "security_patch": "2023-10-06",
@@ -4550,8 +4636,9 @@
             }
         }
     },
-    "23500002": {
-        "version": "5.0.0",
+    {
+        "build_number": "23500002",
+        "calyxos_version": "5.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1903",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4568,8 +4655,9 @@
             }
         }
     },
-    "23500000": {
-        "version": "5.0.0",
+    {
+        "build_number": "23500000",
+        "calyxos_version": "5.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1902",
         "android_version": "14.0",
         "security_patch": "2023-10-05",
@@ -4586,8 +4674,9 @@
             }
         }
     },
-    "23414000": {
-        "version": "4.14.0",
+    {
+        "build_number": "23414000",
+        "calyxos_version": "4.14.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1847",
         "android_version": "4.14.0",
         "security_patch": "2023-10-06",
@@ -4794,8 +4883,9 @@
             }
         }
     },
-    "23413040": {
-        "version": "4.13.4",
+    {
+        "build_number": "23413040",
+        "calyxos_version": "4.13.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1840",
         "android_version": "13.0",
         "security_patch": "2023-09-01",
@@ -5002,8 +5092,9 @@
             }
         }
     },
-    "23413032": {
-        "version": "4.13.3",
+    {
+        "build_number": "23413032",
+        "calyxos_version": "4.13.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1832",
         "android_version": "13.0",
         "security_patch": "2023-09-01",
@@ -5040,8 +5131,9 @@
             }
         }
     },
-    "23413030": {
-        "version": "4.13.3",
+    {
+        "build_number": "23413030",
+        "calyxos_version": "4.13.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1823",
         "android_version": "13.0",
         "security_patch": "2023-09-01",
@@ -5218,8 +5310,9 @@
             }
         }
     },
-    "23413020": {
-        "version": "4.13.2",
+    {
+        "build_number": "23413020",
+        "calyxos_version": "4.13.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1815",
         "android_version": "13.0",
         "security_patch": "2023-09-01?",
@@ -5426,8 +5519,9 @@
             }
         }
     },
-    "23413010": {
-        "version": "4.13.1",
+    {
+        "build_number": "23413010",
+        "calyxos_version": "4.13.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1814",
         "android_version": "13.0",
         "security_patch": "2023-09-01?",
@@ -5444,8 +5538,9 @@
             }
         }
     },
-    "23413000": {
-        "version": "4.13.0",
+    {
+        "build_number": "23413000",
+        "calyxos_version": "4.13.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1809",
         "android_version": "13.0",
         "security_patch": "2023-09-01?",
@@ -5652,8 +5747,9 @@
             }
         }
     },
-    "23412020": {
-        "version": "4.12.2",
+    {
+        "build_number": "23412020",
+        "calyxos_version": "4.12.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1804",
         "android_version": "13.0",
         "security_patch": "2022-08-05",
@@ -5860,8 +5956,9 @@
             }
         }
     },
-    "23412010": {
-        "version": "4.12.1",
+    {
+        "build_number": "23412010",
+        "calyxos_version": "4.12.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1796",
         "android_version": "13.0",
         "security_patch": "2023-08-05",
@@ -5878,8 +5975,9 @@
             }
         }
     },
-    "23412000": {
-        "version": "4.12.0",
+    {
+        "build_number": "23412000",
+        "calyxos_version": "4.12.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1785",
         "android_version": "13.0",
         "security_patch": "2023-08-05",
@@ -6086,15 +6184,17 @@
             }
         }
     },
-    "23411020": {
-        "version": "4.11.2",
+    {
+        "build_number": "23411020",
+        "calyxos_version": "4.11.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1772",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
         "devices": {}
     },
-    "23411010": {
-        "version": "4.11.1",
+    {
+        "build_number": "23411010",
+        "calyxos_version": "4.11.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1768",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
@@ -6111,8 +6211,9 @@
             }
         }
     },
-    "23411030": {
-        "version": "4.11.3",
+    {
+        "build_number": "23411030",
+        "calyxos_version": "4.11.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1753",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
@@ -6319,8 +6420,9 @@
             }
         }
     },
-    "23411000": {
-        "version": "4.11.0",
+    {
+        "build_number": "23411000",
+        "calyxos_version": "4.11.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1752",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
@@ -6507,8 +6609,9 @@
             }
         }
     },
-    "23410022": {
-        "version": "4.10.2-2",
+    {
+        "build_number": "23410022",
+        "calyxos_version": "4.10.2-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1745",
         "android_version": "13.0",
         "security_patch": "2023-06-05",
@@ -6525,8 +6628,9 @@
             }
         }
     },
-    "23410010": {
-        "version": "4.10.1",
+    {
+        "build_number": "23410010",
+        "calyxos_version": "4.10.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1720",
         "android_version": "13.0",
         "security_patch": "2023-06-05",
@@ -6713,8 +6817,9 @@
             }
         }
     },
-    "23410004": {
-        "version": "4.10.0-4",
+    {
+        "build_number": "23410004",
+        "calyxos_version": "4.10.0-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1712",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -6731,8 +6836,9 @@
             }
         }
     },
-    "23410002": {
-        "version": "4.10.0-2",
+    {
+        "build_number": "23410002",
+        "calyxos_version": "4.10.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1711",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -6749,8 +6855,9 @@
             }
         }
     },
-    "23410000": {
-        "version": "4.10.0",
+    {
+        "build_number": "23410000",
+        "calyxos_version": "4.10.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1709",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -6917,8 +7024,9 @@
             }
         }
     },
-    "23410020": {
-        "version": "4.10.2",
+    {
+        "build_number": "23410020",
+        "calyxos_version": "4.10.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1702",
         "android_version": "13.0",
         "security_patch": "2023-06-05",
@@ -7105,8 +7213,9 @@
             }
         }
     },
-    "23409042": {
-        "version": "4.9.4",
+    {
+        "build_number": "23409042",
+        "calyxos_version": "4.9.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1700",
         "android_version": "13\\.0",
         "security_patch": "2023-05-05",
@@ -7123,8 +7232,9 @@
             }
         }
     },
-    "23409032": {
-        "version": "4.9.3-2",
+    {
+        "build_number": "23409032",
+        "calyxos_version": "4.9.3-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1681",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -7141,8 +7251,9 @@
             }
         }
     },
-    "23409020": {
-        "version": "4.9.2",
+    {
+        "build_number": "23409020",
+        "calyxos_version": "4.9.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1668",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -7169,8 +7280,9 @@
             }
         }
     },
-    "230409010": {
-        "version": "4.9.1",
+    {
+        "build_number": "230409010",
+        "calyxos_version": "4.9.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1658",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -7207,8 +7319,9 @@
             }
         }
     },
-    "23409000": {
-        "version": "4.9.0",
+    {
+        "build_number": "23409000",
+        "calyxos_version": "4.9.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1656",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -7355,8 +7468,9 @@
             }
         }
     },
-    "23409040": {
-        "version": "4.9.4",
+    {
+        "build_number": "23409040",
+        "calyxos_version": "4.9.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1647",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -7533,8 +7647,9 @@
             }
         }
     },
-    "23408030": {
-        "version": "4.8.3",
+    {
+        "build_number": "23408030",
+        "calyxos_version": "4.8.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1615",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7711,8 +7826,9 @@
             }
         }
     },
-    "23408020": {
-        "version": "4.8.2",
+    {
+        "build_number": "23408020",
+        "calyxos_version": "4.8.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1614",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7729,8 +7845,9 @@
             }
         }
     },
-    "23408010": {
-        "version": "4.8.1",
+    {
+        "build_number": "23408010",
+        "calyxos_version": "4.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1610",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7797,8 +7914,9 @@
             }
         }
     },
-    "23408000": {
-        "version": "4.8.0",
+    {
+        "build_number": "23408000",
+        "calyxos_version": "4.8.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1609",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7915,8 +8033,9 @@
             }
         }
     },
-    "23407070": {
-        "version": "4.7.7",
+    {
+        "build_number": "23407070",
+        "calyxos_version": "4.7.7",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1605",
         "android_version": "13.0",
         "security_patch": "2022-03-05",
@@ -8083,8 +8202,9 @@
             }
         }
     },
-    "23407050": {
-        "version": "4.7.5",
+    {
+        "build_number": "23407050",
+        "calyxos_version": "4.7.5",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1574",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8261,8 +8381,9 @@
             }
         }
     },
-    "23407040": {
-        "version": "4.7.4",
+    {
+        "build_number": "23407040",
+        "calyxos_version": "4.7.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1560",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8299,8 +8420,9 @@
             }
         }
     },
-    "23407030": {
-        "version": "4.7.3",
+    {
+        "build_number": "23407030",
+        "calyxos_version": "4.7.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1546",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8337,8 +8459,9 @@
             }
         }
     },
-    "22407020": {
-        "version": "4.7.2",
+    {
+        "build_number": "22407020",
+        "calyxos_version": "4.7.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1545",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8405,8 +8528,9 @@
             }
         }
     },
-    "23407010": {
-        "version": "4.7.1",
+    {
+        "build_number": "23407010",
+        "calyxos_version": "4.7.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1539",
         "android_version": "13.0",
         "security_patch": "2022-02-05",
@@ -8443,8 +8567,9 @@
             }
         }
     },
-    "23407000": {
-        "version": "4.7.0",
+    {
+        "build_number": "23407000",
+        "calyxos_version": "4.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1537",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8571,8 +8696,9 @@
             }
         }
     },
-    "23407060": {
-        "version": "4.7.6",
+    {
+        "build_number": "23407060",
+        "calyxos_version": "4.7.6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1536",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8739,8 +8865,9 @@
             }
         }
     },
-    "23406010": {
-        "version": "4.6.1",
+    {
+        "build_number": "23406010",
+        "calyxos_version": "4.6.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1511",
         "android_version": "13.0",
         "security_patch": "2023-02-05",
@@ -8797,8 +8924,9 @@
             }
         }
     },
-    "23405020": {
-        "version": "4.5.2",
+    {
+        "build_number": "23405020",
+        "calyxos_version": "4.5.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1461",
         "android_version": "13.0",
         "security_patch": "2023-01-05",
@@ -8815,8 +8943,9 @@
             }
         }
     },
-    "23406000": {
-        "version": "4.6.0",
+    {
+        "build_number": "23406000",
+        "calyxos_version": "4.6.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1432",
         "android_version": "13.0",
         "security_patch": "2023-02-05",
@@ -8993,8 +9122,9 @@
             }
         }
     },
-    "22405010": {
-        "version": "4.5.1",
+    {
+        "build_number": "22405010",
+        "calyxos_version": "4.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1431",
         "android_version": "13.0",
         "security_patch": "2022-01-05",
@@ -9161,8 +9291,9 @@
             }
         }
     },
-    "22405000": {
-        "version": "4.5.0",
+    {
+        "build_number": "22405000",
+        "calyxos_version": "4.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1412",
         "android_version": "13.0",
         "security_patch": "2023-01-05",
@@ -9329,8 +9460,9 @@
             }
         }
     },
-    "22404010": {
-        "version": "4.4.1",
+    {
+        "build_number": "22404010",
+        "calyxos_version": "4.4.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1396",
         "android_version": "13",
         "security_patch": "2022-12-05",
@@ -9497,8 +9629,9 @@
             }
         }
     },
-    "22404000": {
-        "version": "4.4.0",
+    {
+        "build_number": "22404000",
+        "calyxos_version": "4.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1377",
         "android_version": "13.0 QPR1",
         "security_patch": "2022-12-05",
@@ -9665,8 +9798,9 @@
             }
         }
     },
-    "22403022": {
-        "version": "4.3.2-2",
+    {
+        "build_number": "22403022",
+        "calyxos_version": "4.3.2-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1367",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9703,8 +9837,9 @@
             }
         }
     },
-    "22403020": {
-        "version": "4.3.2",
+    {
+        "build_number": "22403020",
+        "calyxos_version": "4.3.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1366",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9841,8 +9976,9 @@
             }
         }
     },
-    "22403012": {
-        "version": "4.3.1-2",
+    {
+        "build_number": "22403012",
+        "calyxos_version": "4.3.1-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1358",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9879,8 +10015,9 @@
             }
         }
     },
-    "22403010": {
-        "version": "4.3.1",
+    {
+        "build_number": "22403010",
+        "calyxos_version": "4.3.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1357",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9997,8 +10134,9 @@
             }
         }
     },
-    "22403002": {
-        "version": "4.3.0",
+    {
+        "build_number": "22403002",
+        "calyxos_version": "4.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1319",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -10035,8 +10173,9 @@
             }
         }
     },
-    "22403000": {
-        "version": "4.3.0",
+    {
+        "build_number": "22403000",
+        "calyxos_version": "4.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1318",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -10173,8 +10312,9 @@
             }
         }
     },
-    "22402070": {
-        "version": "4.2.7",
+    {
+        "build_number": "22402070",
+        "calyxos_version": "4.2.7",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1300",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10341,8 +10481,9 @@
             }
         }
     },
-    "22402060": {
-        "version": "4.2.6",
+    {
+        "build_number": "22402060",
+        "calyxos_version": "4.2.6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1287",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10509,8 +10650,9 @@
             }
         }
     },
-    "22402050": {
-        "version": "4.2.5",
+    {
+        "build_number": "22402050",
+        "calyxos_version": "4.2.5",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1280",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10547,8 +10689,9 @@
             }
         }
     },
-    "22402040": {
-        "version": "4.2.4",
+    {
+        "build_number": "22402040",
+        "calyxos_version": "4.2.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1276",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10575,8 +10718,9 @@
             }
         }
     },
-    "22402030": {
-        "version": "4.2.3",
+    {
+        "build_number": "22402030",
+        "calyxos_version": "4.2.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1251",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10673,8 +10817,9 @@
             }
         }
     },
-    "22402020": {
-        "version": "4.2.2",
+    {
+        "build_number": "22402020",
+        "calyxos_version": "4.2.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1228",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10691,8 +10836,9 @@
             }
         }
     },
-    "22402010": {
-        "version": "4.2.1",
+    {
+        "build_number": "22402010",
+        "calyxos_version": "4.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1217",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10709,8 +10855,9 @@
             }
         }
     },
-    "22401092": {
-        "version": "4.1.9-2",
+    {
+        "build_number": "22401092",
+        "calyxos_version": "4.1.9-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1215",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10727,8 +10874,9 @@
             }
         }
     },
-    "22402000": {
-        "version": "4.2.0 :sunglasses: ",
+    {
+        "build_number": "22402000",
+        "calyxos_version": "4.2.0 :sunglasses: ",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1212",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10825,8 +10973,9 @@
             }
         }
     },
-    "22401080": {
-        "version": "4.1.8",
+    {
+        "build_number": "22401080",
+        "calyxos_version": "4.1.8",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1203",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10843,8 +10992,9 @@
             }
         }
     },
-    "22401070": {
-        "version": "4.1.7",
+    {
+        "build_number": "22401070",
+        "calyxos_version": "4.1.7",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1201",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10861,8 +11011,9 @@
             }
         }
     },
-    "22401060": {
-        "version": "4.1.6",
+    {
+        "build_number": "22401060",
+        "calyxos_version": "4.1.6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1196",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10959,8 +11110,9 @@
             }
         }
     },
-    "220401050": {
-        "version": "4.1.5",
+    {
+        "build_number": "220401050",
+        "calyxos_version": "4.1.5",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1194",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10987,8 +11139,9 @@
             }
         }
     },
-    "22401040": {
-        "version": "4.1.4",
+    {
+        "build_number": "22401040",
+        "calyxos_version": "4.1.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1187",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -11085,8 +11238,9 @@
             }
         }
     },
-    "22401030": {
-        "version": "4.1.3",
+    {
+        "build_number": "22401030",
+        "calyxos_version": "4.1.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1185",
         "android_version": "12.0",
         "security_patch": "2022-09-05",
@@ -11163,8 +11317,9 @@
             }
         }
     },
-    "22401020": {
-        "version": "4.1.2",
+    {
+        "build_number": "22401020",
+        "calyxos_version": "4.1.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1179",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -11181,8 +11336,9 @@
             }
         }
     },
-    "22401010": {
-        "version": "4.1.1",
+    {
+        "build_number": "22401010",
+        "calyxos_version": "4.1.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1178",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -11209,8 +11365,9 @@
             }
         }
     },
-    "22401000": {
-        "version": "4.1.0",
+    {
+        "build_number": "22401000",
+        "calyxos_version": "4.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1174",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -11277,8 +11434,9 @@
             }
         }
     },
-    "22309000": {
-        "version": "3.9.0",
+    {
+        "build_number": "22309000",
+        "calyxos_version": "3.9.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1169",
         "android_version": "12L",
         "security_patch": "2022-09-01",
@@ -11425,8 +11583,9 @@
             }
         }
     },
-    "22308020": {
-        "version": "3.8.0-2",
+    {
+        "build_number": "22308020",
+        "calyxos_version": "3.8.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1156",
         "android_version": "12L",
         "security_patch": "2022-08-05",
@@ -11573,8 +11732,9 @@
             }
         }
     },
-    "22307032": {
-        "version": "3.7.3",
+    {
+        "build_number": "22307032",
+        "calyxos_version": "3.7.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1131",
         "android_version": "12.0",
         "security_patch": "2022-07-05 (2022-06-01)",
@@ -11591,8 +11751,9 @@
             }
         }
     },
-    "22307020": {
-        "version": "3.7.2",
+    {
+        "build_number": "22307020",
+        "calyxos_version": "3.7.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1106",
         "android_version": "12L",
         "security_patch": "2022-07-05",
@@ -11729,8 +11890,9 @@
             }
         }
     },
-    "22307002": {
-        "version": "3.7.0",
+    {
+        "build_number": "22307002",
+        "calyxos_version": "3.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1065",
         "android_version": "12L",
         "security_patch": "2022-07-05",
@@ -11857,8 +12019,9 @@
             }
         }
     },
-    "22306002": {
-        "version": "3.6.0-2",
+    {
+        "build_number": "22306002",
+        "calyxos_version": "3.6.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1030",
         "android_version": "12.0",
         "security_patch": "2022-06-05",
@@ -11985,8 +12148,9 @@
             }
         }
     },
-    "22306000": {
-        "version": "3.6.0",
+    {
+        "build_number": "22306000",
+        "calyxos_version": "3.6.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1029",
         "android_version": "12.0",
         "security_patch": "2022-06-05",
@@ -12113,8 +12277,9 @@
             }
         }
     },
-    "22305010": {
-        "version": "3.5.1",
+    {
+        "build_number": "22305010",
+        "calyxos_version": "3.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1002",
         "android_version": "12.0",
         "security_patch": "2022-05-05",
@@ -12281,8 +12446,9 @@
             }
         }
     },
-    "22305000": {
-        "version": "3.5.0",
+    {
+        "build_number": "22305000",
+        "calyxos_version": "3.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/996",
         "android_version": "12L",
         "security_patch": "2022-05-05",
@@ -12449,8 +12615,9 @@
             }
         }
     },
-    "22304000": {
-        "version": "3.4.0",
+    {
+        "build_number": "22304000",
+        "calyxos_version": "3.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/966",
         "android_version": "12L",
         "security_patch": "2022-04-05",
@@ -12577,8 +12744,9 @@
             }
         }
     },
-    "22303020": {
-        "version": "3.3.2",
+    {
+        "build_number": "22303020",
+        "calyxos_version": "3.3.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/962",
         "android_version": "12L",
         "security_patch": "2022-03-05",
@@ -12615,8 +12783,9 @@
             }
         }
     },
-    "22303010": {
-        "version": "3.3.1",
+    {
+        "build_number": "22303010",
+        "calyxos_version": "3.3.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/949",
         "android_version": "12.1",
         "security_patch": "2022-03-05",
@@ -12643,8 +12812,9 @@
             }
         }
     },
-    "22303004": {
-        "version": "3.3.0",
+    {
+        "build_number": "22303004",
+        "calyxos_version": "3.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/931",
         "android_version": "12.0 (12.1/12L)",
         "security_patch": "2022-03-05",
@@ -12751,8 +12921,9 @@
             }
         }
     },
-    "22303002": {
-        "version": "3.3.0",
+    {
+        "build_number": "22303002",
+        "calyxos_version": "3.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/930",
         "android_version": "12.0 (12.1/12L)",
         "security_patch": "2022-03-05",
@@ -12779,8 +12950,9 @@
             }
         }
     },
-    "22303000": {
-        "version": "3.3.0",
+    {
+        "build_number": "22303000",
+        "calyxos_version": "3.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/924",
         "android_version": "12.0 (12.1/12L)",
         "security_patch": "2022-03-05",
@@ -12907,8 +13079,9 @@
             }
         }
     },
-    "22302020": {
-        "version": "3.2.2",
+    {
+        "build_number": "22302020",
+        "calyxos_version": "3.2.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/918",
         "android_version": "12.0",
         "security_patch": "2022-02-05",
@@ -12935,8 +13108,9 @@
             }
         }
     },
-    "22302010": {
-        "version": "3.2.1",
+    {
+        "build_number": "22302010",
+        "calyxos_version": "3.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/910",
         "android_version": "12.0",
         "security_patch": "2022-02-05",
@@ -12963,8 +13137,9 @@
             }
         }
     },
-    "22214000": {
-        "version": "2.14.0",
+    {
+        "build_number": "22214000",
+        "calyxos_version": "2.14.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/893",
         "android_version": "11.0",
         "security_patch": "2022-02-05",
@@ -13001,8 +13176,9 @@
             }
         }
     },
-    "22302000": {
-        "version": "3.2.0",
+    {
+        "build_number": "22302000",
+        "calyxos_version": "3.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/887",
         "android_version": "12.0",
         "security_patch": "2022-02-05",
@@ -13129,8 +13305,9 @@
             }
         }
     },
-    "22213000": {
-        "version": "2.13.0",
+    {
+        "build_number": "22213000",
+        "calyxos_version": "2.13.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/843",
         "android_version": "11.0",
         "security_patch": "2022-01-05",
@@ -13167,8 +13344,9 @@
             }
         }
     },
-    "22301010": {
-        "version": "3.1.1",
+    {
+        "build_number": "22301010",
+        "calyxos_version": "3.1.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/841",
         "android_version": "12.0",
         "security_patch": "2022-01-05",
@@ -13195,8 +13373,9 @@
             }
         }
     },
-    "22301000": {
-        "version": "3.1.0",
+    {
+        "build_number": "22301000",
+        "calyxos_version": "3.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/839",
         "android_version": "12.0",
         "security_patch": "2022-01-05",
@@ -13303,8 +13482,9 @@
             }
         }
     },
-    "22300000": {
-        "version": "3.0.0",
+    {
+        "build_number": "22300000",
+        "calyxos_version": "3.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/819",
         "android_version": "12.0",
         "security_patch": "2021-12-05",
@@ -13431,8 +13611,9 @@
             }
         }
     },
-    "202112110": {
-        "version": "2.11.0",
+    {
+        "build_number": "202112110",
+        "calyxos_version": "2.11.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/759",
         "android_version": "11.0",
         "security_patch": "2021-11-01",
@@ -13569,8 +13750,9 @@
             }
         }
     },
-    "202102100": {
-        "version": "2.10.0",
+    {
+        "build_number": "202102100",
+        "calyxos_version": "2.10.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/726",
         "android_version": "11.0",
         "security_patch": "2021-10-01",
@@ -13707,8 +13889,9 @@
             }
         }
     },
-    "202109290": {
-        "version": "2.9.0",
+    {
+        "build_number": "202109290",
+        "calyxos_version": "2.9.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/688",
         "android_version": "11.0",
         "security_patch": "2021-09-05",
@@ -13845,8 +14028,9 @@
             }
         }
     },
-    "2.8.3": {
-        "version": "2.8.3",
+    {
+        "build_number": "2.8.3",
+        "calyxos_version": "2.8.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/687",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -13863,8 +14047,9 @@
             }
         }
     },
-    "2.8.2": {
-        "version": "2.8.2",
+    {
+        "build_number": "2.8.2",
+        "calyxos_version": "2.8.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/654",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -13991,8 +14176,9 @@
             }
         }
     },
-    "2.8.1": {
-        "version": "2.8.1",
+    {
+        "build_number": "2.8.1",
+        "calyxos_version": "2.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/646",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -14119,8 +14305,9 @@
             }
         }
     },
-    "2.8.0": {
-        "version": "2.8.0",
+    {
+        "build_number": "2.8.0",
+        "calyxos_version": "2.8.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/608",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -14247,8 +14434,9 @@
             }
         }
     },
-    "2.7.1": {
-        "version": "2.7.1",
+    {
+        "build_number": "2.7.1",
+        "calyxos_version": "2.7.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/584",
         "android_version": "11.0",
         "security_patch": "2021-07-05",
@@ -14265,8 +14453,9 @@
             }
         }
     },
-    "2.7.0": {
-        "version": "2.7.0",
+    {
+        "build_number": "2.7.0",
+        "calyxos_version": "2.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/569",
         "android_version": "11.0",
         "security_patch": "2021-07-05",
@@ -14393,8 +14582,9 @@
             }
         }
     },
-    "2.6.1": {
-        "version": "2.6.1",
+    {
+        "build_number": "2.6.1",
+        "calyxos_version": "2.6.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/467",
         "android_version": "11.0",
         "security_patch": "2021-06-05",
@@ -14521,8 +14711,9 @@
             }
         }
     },
-    "2021.05.05.12": {
-        "version": "2.5.0",
+    {
+        "build_number": "2021.05.05.12",
+        "calyxos_version": "2.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/424",
         "android_version": "11.0",
         "security_patch": "2021-05-05",
@@ -14649,8 +14840,9 @@
             }
         }
     },
-    "2021.04.07.18": {
-        "version": "2.4.0",
+    {
+        "build_number": "2021.04.07.18",
+        "calyxos_version": "2.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/396",
         "android_version": "11.0",
         "security_patch": "2021-04-05",
@@ -14777,8 +14969,9 @@
             }
         }
     },
-    "2021.03.29.19": {
-        "version": "2.2.0",
+    {
+        "build_number": "2021.03.29.19",
+        "calyxos_version": "2.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/389",
         "android_version": "11.0.0",
         "security_patch": "2021-03-05",
@@ -14795,8 +14988,9 @@
             }
         }
     },
-    "2021.03.18.10": {
-        "version": "2.2.0",
+    {
+        "build_number": "2021.03.18.10",
+        "calyxos_version": "2.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/374",
         "android_version": "11.0.0",
         "security_patch": "2021-03-05",
@@ -14813,8 +15007,9 @@
             }
         }
     },
-    "2021.03.04.13": {
-        "version": "2.2.0",
+    {
+        "build_number": "2021.03.04.13",
+        "calyxos_version": "2.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/361",
         "android_version": "11.0",
         "security_patch": "2021-03-05",
@@ -14831,8 +15026,9 @@
             }
         }
     },
-    "2021.03.03.09": {
-        "version": "2.2.0",
+    {
+        "build_number": "2021.03.03.09",
+        "calyxos_version": "2.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/360",
         "android_version": "11.0",
         "security_patch": "2021-03-05",
@@ -14949,8 +15145,9 @@
             }
         }
     },
-    "2021.02.02.18": {
-        "version": "2.2.0",
+    {
+        "build_number": "2021.02.02.18",
+        "calyxos_version": "2.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/335",
         "android_version": "11.0",
         "security_patch": "2021-02-05",
@@ -15077,15 +15274,17 @@
             }
         }
     },
-    "2021.01.25.15": {
-        "version": "2.1.0",
+    {
+        "build_number": "2021.01.25.15",
+        "calyxos_version": "2.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/322",
         "android_version": "11.0",
         "security_patch": "2021-01-05",
         "devices": {}
     },
-    "2021.01.08.12": {
-        "version": "2.1.0",
+    {
+        "build_number": "2021.01.08.12",
+        "calyxos_version": "2.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/273",
         "android_version": "11.0.0",
         "security_patch": "2021-01-05",
@@ -15102,8 +15301,9 @@
             }
         }
     },
-    "2021.01.06.14": {
-        "version": "2.1.0",
+    {
+        "build_number": "2021.01.06.14",
+        "calyxos_version": "2.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/271",
         "android_version": "11.0.0",
         "security_patch": "2021-01-05",
@@ -15200,8 +15400,9 @@
             }
         }
     },
-    "2020.12.30.12": {
-        "version": "2.0.1",
+    {
+        "build_number": "2020.12.30.12",
+        "calyxos_version": "2.0.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/265",
         "android_version": "11.0.0",
         "security_patch": "2020-12-05",
@@ -15298,8 +15499,9 @@
             }
         }
     },
-    "2020.12.17.20": {
-        "version": "1.0.0",
+    {
+        "build_number": "2020.12.17.20",
+        "calyxos_version": "1.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/261",
         "android_version": "10.0.0",
         "security_patch": "2020-12-05",
@@ -15316,8 +15518,9 @@
             }
         }
     },
-    "2020.12.16.17": {
-        "version": "1.0.0",
+    {
+        "build_number": "2020.12.16.17",
+        "calyxos_version": "1.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/260",
         "android_version": "10.0.0",
         "security_patch": "2020-12-05",
@@ -15334,8 +15537,9 @@
             }
         }
     },
-    "2020.12.15.20": {
-        "version": "2.0.0",
+    {
+        "build_number": "2020.12.15.20",
+        "calyxos_version": "2.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/258",
         "android_version": "11.0.0",
         "security_patch": "2012-12-05",
@@ -15432,8 +15636,9 @@
             }
         }
     },
-    "2020.12.12.21": {
-        "version": "2.0.0",
+    {
+        "build_number": "2020.12.12.21",
+        "calyxos_version": "2.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/255",
         "android_version": "11.0.0",
         "security_patch": "2020-12-05",
@@ -15530,8 +15735,9 @@
             }
         }
     },
-    "2020.11.04.17": {
-        "version": "1.0.0",
+    {
+        "build_number": "2020.11.04.17",
+        "calyxos_version": "1.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/222",
         "android_version": "10.0",
         "security_patch": "2020-11-05",
@@ -15638,8 +15844,9 @@
             }
         }
     },
-    "2020.09.24.12": {
-        "version": "1.0.0",
+    {
+        "build_number": "2020.09.24.12",
+        "calyxos_version": "1.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/203",
         "android_version": "10.0",
         "security_patch": "2020-09-05",
@@ -15656,8 +15863,9 @@
             }
         }
     },
-    "2020.09.22.12": {
-        "version": "1.0.0",
+    {
+        "build_number": "2020.09.22.12",
+        "calyxos_version": "1.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/202",
         "android_version": "10.0",
         "security_patch": "2020-09-05",
@@ -15754,8 +15962,9 @@
             }
         }
     },
-    "2020.08.04.12": {
-        "version": "1.0.0",
+    {
+        "build_number": "2020.08.04.12",
+        "calyxos_version": "1.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/151",
         "android_version": "10.0",
         "security_patch": "2020-08-05",
@@ -15852,8 +16061,9 @@
             }
         }
     },
-    "2020.07.07.18": {
-        "version": "1.0.0 (Finally!)",
+    {
+        "build_number": "2020.07.07.18",
+        "calyxos_version": "1.0.0 (Finally!)",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/136",
         "android_version": "10.0 ",
         "security_patch": "2020-07-05",
@@ -15870,8 +16080,9 @@
             }
         }
     },
-    "2020.07.07.12": {
-        "version": "1.0.0 (Finally!)",
+    {
+        "build_number": "2020.07.07.12",
+        "calyxos_version": "1.0.0 (Finally!)",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/135",
         "android_version": "10.0 ",
         "security_patch": "2020-07-05",
@@ -15958,8 +16169,9 @@
             }
         }
     },
-    "2020.06.03.12": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.06.03.12",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/118",
         "android_version": "10.0",
         "security_patch": "2020-06-05",
@@ -16056,8 +16268,9 @@
             }
         }
     },
-    "2020.06.01.13": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.06.01.13",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/117",
         "android_version": "10.0",
         "security_patch": "2020-05-05",
@@ -16074,8 +16287,9 @@
             }
         }
     },
-    "2020.05.26.20": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.05.26.20",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/116",
         "android_version": "10.0",
         "security_patch": "2020-05-05",
@@ -16112,15 +16326,17 @@
             }
         }
     },
-    "2020.05.06.14": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.05.06.14",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/115",
         "android_version": "10.0",
         "security_patch": "2020-05-05",
         "devices": {}
     },
-    "2020.04.30.10": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.04.30.10",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/113",
         "android_version": "10.0",
         "security_patch": "April 2020",
@@ -16197,8 +16413,9 @@
             }
         }
     },
-    "2020.04.22.16": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.04.22.16",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/112",
         "android_version": "10.0",
         "security_patch": "April 2020",
@@ -16275,8 +16492,9 @@
             }
         }
     },
-    "2020.04.07.17": {
-        "version": "1.0.0-beta3",
+    {
+        "build_number": "2020.04.07.17",
+        "calyxos_version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/111",
         "android_version": "10.0",
         "security_patch": "April 2020",
@@ -16353,5 +16571,7 @@
             }
         }
     },
-    "last_update": "2024-06-22 07:06:08.466511+00:00"
-}
+    {
+        "last_update": "2024-06-22 09:29:29.612749+00:00"
+    }
+]
