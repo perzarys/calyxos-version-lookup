@@ -7,8 +7,8 @@ const detailsTable = document.getElementById('detailsTable');
 const deviceDetailsTable = document.getElementById('deviceDetailsTable');
 const lastUpdateDisplay = document.getElementById('lastUpdate');
 
-// Initialize empty object to hold JSON data
-let jsonData = {};
+// Initialize empty array to hold JSON data
+let jsonData = [];
 
 // Function to fetch JSON data from URL and populate build options
 function fetchAndPopulateBuilds() {
@@ -20,21 +20,28 @@ function fetchAndPopulateBuilds() {
       return response.json();
     })
     .then(data => {
-      jsonData = data; // Store fetched JSON data in jsonData variable
-      const lastUpdate = data.last_update;
-      lastUpdateDisplay.textContent = `Last Updated: ${lastUpdate}`;
+      if (!Array.isArray(data)) {
+        throw new Error('Fetched data is not an array');
+      }
+      jsonData = data; // Store fetched JSON data in jsonData array
+      if (data.length == 0) {
+        lastUpdateDisplay.textContent = 'No data available';
+      }
 
       // Clear existing options
       buildSelect.innerHTML = '<option value="">Select a build...</option>';
       deviceSelect.innerHTML = '<option value="">Select a device...</option>';
 
       // Populate build options
-      Object.keys(jsonData).forEach(buildId => {
-        if (buildId !== 'last_update') {
-          const option = document.createElement('option');
-          option.value = buildId;
-          option.textContent = buildId;
+      jsonData.forEach((item, index) => {
+        const option = document.createElement('option');
+        option.value = item.build_number; // Using index as the value to reference the array position
+        option.textContent = item.calyxos_version + " (" + item.build_number + ")"; // Assuming each dictionary has a 'version' key
+        if (index !== jsonData.length-1) {
           buildSelect.appendChild(option);
+        }
+        else {
+          lastUpdateDisplay.textContent = `Last Updated: ${item.last_update}`;
         }
       });
 
@@ -54,8 +61,9 @@ function fetchAndPopulateBuilds() {
 // Function to populate device options based on selected build
 function populateDevices() {
   const selectedBuild = buildSelect.value;
-  const selectedObject = jsonData[selectedBuild];
-
+  const selectedObject = jsonData.find(obj => {
+    return obj.build_number === selectedBuild
+  })
   // Clear existing options
   deviceSelect.innerHTML = '<option value="">Select a device...</option>';
 
@@ -92,7 +100,9 @@ function displayDetails() {
     return;
   }
 
-  const selectedObject = jsonData[selectedBuild];
+  const selectedObject = jsonData.find(obj => {
+    return obj.build_number === selectedBuild
+  })
   if (selectedObject && selectedObject.devices && selectedObject.devices[selectedDevice]) {
     const deviceDetails = selectedObject.devices[selectedDevice];
 
@@ -108,7 +118,7 @@ function displayDetails() {
           <tr>
           <tr>
             <td>GitLab</td>
-            <td colspan="2"><a href=${selectedObject.issue_url}>CalyxOS ${selectedBuild}</a></td>
+            <td colspan="2"><a href=${selectedObject.issue_url}>CalyxOS ${selectedObject.calyxos_version}</a></td>
           </tr>
           <tr>
             <td>Android version</td>
@@ -120,7 +130,7 @@ function displayDetails() {
           </tr>
           <tr>
             <td>Build number</td>
-            <td colspan="2">${selectedObject.build}</td>
+            <td colspan="2">${buildSelect.value}</td>
           </tr>
           <tr>
             <td><b>Factory ${deviceCodename}</b</td>
