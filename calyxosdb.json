@@ -1,6 +1,44 @@
 {
-    "5.8.1": {
-        "build": "24508010",
+    "24508012": {
+        "version": "5.8.1",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2480",
+        "android_version": "14.0",
+        "security_patch": "2024-06-05",
+        "devices": {
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-24508012.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-24508012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-24508012.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-24508012.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-24508012.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-24508012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-24508012.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-24508012.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-24508012.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-24508012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-24508012.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-24508012.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "24508010": {
+        "version": "5.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2463",
         "android_version": "14.0",
         "security_patch": "2024-06-05",
@@ -107,8 +145,8 @@
             }
         }
     },
-    "5.8.0": {
-        "build": "24508000",
+    "24508000": {
+        "version": "5.8.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2455",
         "android_version": "14.0",
         "security_patch": "2024-06-05",
@@ -255,8 +293,8 @@
             }
         }
     },
-    "5.7.2": {
-        "build": "24507020",
+    "24507020": {
+        "version": "5.7.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2378",
         "android_version": "14.0",
         "security_patch": "2024-05-05",
@@ -523,8 +561,26 @@
             }
         }
     },
-    "5.7.3": {
-        "build": "24507030",
+    "24507032": {
+        "version": "5.7.3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2434",
+        "android_version": "14.0",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-24507032.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24507032.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24507032.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24507032.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "24507030": {
+        "version": "5.7.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2422",
         "android_version": "14.0",
         "security_patch": "2024-05-05",
@@ -591,8 +647,44 @@
             }
         }
     },
-    "5.7.0": {
-        "build": "24507000",
+    "24507002": {
+        "version": "5.7.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2379",
+        "android_version": "14.0",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "FP5 | Fairphone 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP5-factory-24507002.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24507002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24507002.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24507002.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "24507010": {
+        "version": "5.7.1",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2374",
+        "android_version": "14.0 QPR1",
+        "security_patch": "2024-05-05",
+        "devices": {
+            "akita | Pixel 8a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/akita-factory-24507010.zip",
+                    "sha256": "https://release.calyxinstitute.org/akita-factory-24507010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/akita-ota_update-24507010.zip",
+                    "sha256": "https://release.calyxinstitute.org/akita-ota_update-24507010.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "24507000": {
+        "version": "5.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2336",
         "android_version": "14.0",
         "security_patch": "2024-05-05",
@@ -859,26 +951,8 @@
             }
         }
     },
-    "5.7.1": {
-        "build": "24507010",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2374",
-        "android_version": "14.0 QPR1",
-        "security_patch": "2024-05-05",
-        "devices": {
-            "akita | Pixel 8a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/akita-factory-24507010.zip",
-                    "sha256": "https://release.calyxinstitute.org/akita-factory-24507010.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/akita-ota_update-24507010.zip",
-                    "sha256": "https://release.calyxinstitute.org/akita-ota_update-24507010.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "5.6.3": {
-        "build": "24506030",
+    "24506030": {
+        "version": "5.6.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2309",
         "android_version": "14.0",
         "security_patch": "2024-04-05",
@@ -1145,8 +1219,8 @@
             }
         }
     },
-    "5.6.2": {
-        "build": "24506020",
+    "24506020": {
+        "version": "5.6.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2296",
         "android_version": "14.0",
         "security_patch": "2024-04-05",
@@ -1243,8 +1317,8 @@
             }
         }
     },
-    "5.6.1": {
-        "build": "24506010",
+    "24506010": {
+        "version": "5.6.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2260",
         "android_version": "14.0",
         "security_patch": "2024-04-05",
@@ -1261,8 +1335,8 @@
             }
         }
     },
-    "5.6.0": {
-        "build": "24506000",
+    "24506000": {
+        "version": "5.6.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2253",
         "android_version": "14.0",
         "security_patch": "tbd",
@@ -1489,8 +1563,8 @@
             }
         }
     },
-    "5.5.3": {
-        "build": "24505030",
+    "24505030": {
+        "version": "5.5.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2233",
         "android_version": "14.0",
         "security_patch": "2024-03-05",
@@ -1537,8 +1611,8 @@
             }
         }
     },
-    "5.5.2": {
-        "build": "24505020",
+    "24505020": {
+        "version": "5.5.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2223",
         "android_version": "14.0",
         "security_patch": "2024-03-05",
@@ -1735,8 +1809,66 @@
             }
         }
     },
-    "5.5.1": {
-        "build": "24505010",
+    "24505012": {
+        "version": "5.5.1",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2178",
+        "android_version": "14.0",
+        "security_patch": "2023-03-05",
+        "devices": {
+            "FP5 | Fairphone 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP5-factory-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-factory-24505012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP5-ota_update-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP5-ota_update-24505012.zip.sha256sum"
+                }
+            },
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-24505012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-24505012.zip.sha256sum"
+                }
+            },
+            "devon | moto g32": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/devon-factory-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-factory-24505012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/devon-ota_update-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-ota_update-24505012.zip.sha256sum"
+                }
+            },
+            "hawao | moto g42": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/hawao-factory-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/hawao-factory-24505012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/hawao-ota_update-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/hawao-ota_update-24505012.zip.sha256sum"
+                }
+            },
+            "rhode | moto g52": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/rhode-factory-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-factory-24505012.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/rhode-ota_update-24505012.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-ota_update-24505012.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "24505010": {
+        "version": "5.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2176",
         "android_version": "14.0",
         "security_patch": "2023-03-05",
@@ -1763,8 +1895,8 @@
             }
         }
     },
-    "5.5.0": {
-        "build": "24505000",
+    "24505000": {
+        "version": "5.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2165",
         "android_version": "14.0",
         "security_patch": "2023-03-05",
@@ -1881,8 +2013,8 @@
             }
         }
     },
-    "5.4.2-2": {
-        "build": "24504022",
+    "24504022": {
+        "version": "5.4.2-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2150",
         "android_version": "14.0",
         "security_patch": "2024-02-05",
@@ -1899,8 +2031,8 @@
             }
         }
     },
-    "5.4.1": {
-        "build": "24504010",
+    "24504010": {
+        "version": "5.4.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2140",
         "android_version": "14.0",
         "security_patch": "2024-02-05",
@@ -2157,8 +2289,8 @@
             }
         }
     },
-    "4.18.0": {
-        "build": "24418000",
+    "24418000": {
+        "version": "4.18.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2114",
         "android_version": "13.0",
         "security_patch": "2023-01-05",
@@ -2195,8 +2327,8 @@
             }
         }
     },
-    "5.4.0": {
-        "build": "24504000",
+    "24504000": {
+        "version": "5.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2103",
         "android_version": "14.0",
         "security_patch": "2023-02-05",
@@ -2383,8 +2515,8 @@
             }
         }
     },
-    "5.3.1-4": {
-        "build": "24503014",
+    "24503014": {
+        "version": "5.3.1-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2082",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2431,8 +2563,8 @@
             }
         }
     },
-    "5.3.2": {
-        "build": "24503020",
+    "24503020": {
+        "version": "5.3.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2067",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2579,8 +2711,8 @@
             }
         }
     },
-    "5.3.1-2": {
-        "build": "24503012",
+    "24503012": {
+        "version": "5.3.1-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2066",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2597,8 +2729,8 @@
             }
         }
     },
-    "5.3.1": {
-        "build": "24503010",
+    "24503010": {
+        "version": "5.3.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2062",
         "android_version": "14.0",
         "security_patch": "2024-01-05",
@@ -2645,8 +2777,8 @@
             }
         }
     },
-    "4.17.0": {
-        "build": "24417000",
+    "24417000": {
+        "version": "4.17.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2061",
         "android_version": "13.0",
         "security_patch": "2024-01-05",
@@ -2683,8 +2815,46 @@
             }
         }
     },
-    "5.2.1": {
-        "build": "23502010",
+    "24502010": {
+        "version": "5.2.1",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2056",
+        "android_version": "13.0",
+        "security_patch": "2023-12-05",
+        "devices": {
+            "devon | moto g32": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/devon-factory-24502010.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-factory-24502010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/devon-ota_update-24502010.zip",
+                    "sha256": "https://release.calyxinstitute.org/devon-ota_update-24502010.zip.sha256sum"
+                }
+            },
+            "hawao | moto g42": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/hawao-factory-24502010.zip",
+                    "sha256": "https://release.calyxinstitute.org/hawao-factory-24502010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/hawao-ota_update-24502010.zip",
+                    "sha256": "https://release.calyxinstitute.org/hawao-ota_update-24502010.zip.sha256sum"
+                }
+            },
+            "rhode | moto g52": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/rhode-factory-24502010.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-factory-24502010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/rhode-ota_update-24502010.zip",
+                    "sha256": "https://release.calyxinstitute.org/rhode-ota_update-24502010.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23502010": {
+        "version": "5.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2033",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -2881,8 +3051,8 @@
             }
         }
     },
-    "5.2.0-9": {
-        "build": "23502009",
+    "23502009": {
+        "version": "5.2.0-9",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2032",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -2899,8 +3069,8 @@
             }
         }
     },
-    "5.2.0-8": {
-        "build": "23502008",
+    "23502008": {
+        "version": "5.2.0-8",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2026",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -2927,8 +3097,8 @@
             }
         }
     },
-    "5.2.0-4": {
-        "build": "23502004",
+    "23502004": {
+        "version": "5.2.0-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2015",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -2965,8 +3135,8 @@
             }
         }
     },
-    "5.2.0-6": {
-        "build": "235020006",
+    "235020006": {
+        "version": "5.2.0-6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2010",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3023,8 +3193,8 @@
             }
         }
     },
-    "5.3.0": {
-        "build": "24503000",
+    "24503000": {
+        "version": "5.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2008",
         "android_version": "14",
         "security_patch": "2024-01-05",
@@ -3161,8 +3331,8 @@
             }
         }
     },
-    "5.2.0-2": {
-        "build": "23502002",
+    "23502002": {
+        "version": "5.2.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2007",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3199,8 +3369,8 @@
             }
         }
     },
-    "4.16.0": {
-        "build": "23416000",
+    "23416000": {
+        "version": "4.16.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2006",
         "android_version": "13.0",
         "security_patch": "2023-12-05",
@@ -3237,8 +3407,8 @@
             }
         }
     },
-    "5.2.0": {
-        "build": "23502000",
+    "23502000": {
+        "version": "5.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/2005",
         "android_version": "14.0",
         "security_patch": "2023-12-05",
@@ -3325,8 +3495,8 @@
             }
         }
     },
-    "5.1.2-4": {
-        "build": "23501024",
+    "23501024": {
+        "version": "5.1.2-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1982",
         "android_version": "14.0",
         "security_patch": "2023-11-05",
@@ -3343,8 +3513,8 @@
             }
         }
     },
-    "5.1.3": {
-        "build": "23501030",
+    "23501030": {
+        "version": "5.1.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1978",
         "android_version": "14.0",
         "security_patch": "2023-11-05",
@@ -3371,8 +3541,8 @@
             }
         }
     },
-    "5.1.2": {
-        "build": "23501020",
+    "23501020": {
+        "version": "5.1.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1977",
         "android_version": "14.0",
         "security_patch": "2023-11-01",
@@ -3499,8 +3669,8 @@
             }
         }
     },
-    "4.15.1-2": {
-        "build": "23415012",
+    "23415012": {
+        "version": "4.15.1-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1974",
         "android_version": "13.0",
         "security_patch": "2023-11-05",
@@ -3557,8 +3727,8 @@
             }
         }
     },
-    "4.15.0": {
-        "build": "23415000",
+    "23415000": {
+        "version": "4.15.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1940",
         "android_version": "13",
         "security_patch": "2023-11-05",
@@ -3655,15 +3825,15 @@
             }
         }
     },
-    "5.1.1": {
-        "build": "23501012",
+    "23501012": {
+        "version": "5.1.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1956",
         "android_version": "14",
         "security_patch": "2023-11-05",
         "devices": {}
     },
-    "5.1.0": {
-        "build": "23501000",
+    "23501000": {
+        "version": "5.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1939",
         "android_version": "14.0",
         "security_patch": "2023-11-05",
@@ -3780,8 +3950,8 @@
             }
         }
     },
-    "4.14.2": {
-        "build": "23414020",
+    "23414020": {
+        "version": "4.14.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1926",
         "android_version": "13.0",
         "security_patch": "2023-10-06",
@@ -3908,8 +4078,8 @@
             }
         }
     },
-    "5.0.3": {
-        "build": "23500030",
+    "23500030": {
+        "version": "5.0.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1921",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4026,8 +4196,8 @@
             }
         }
     },
-    "5.0.2": {
-        "build": "23500020",
+    "23500020": {
+        "version": "5.0.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1920",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4144,8 +4314,8 @@
             }
         }
     },
-    "5.0.1": {
-        "build": "23500010",
+    "23500010": {
+        "version": "5.0.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1909",
         "android_version": "14.0",
         "security_patch": "2023-10-06",
@@ -4262,8 +4432,8 @@
             }
         }
     },
-    "4.14.1": {
-        "build": "23414010",
+    "23414010": {
+        "version": "4.14.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1905",
         "android_version": "13.0",
         "security_patch": "2023-10-06",
@@ -4380,8 +4550,26 @@
             }
         }
     },
-    "5.0.0": {
-        "build": "23500000",
+    "23500002": {
+        "version": "5.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1903",
+        "android_version": "14.0",
+        "security_patch": "2023-10-06",
+        "devices": {
+            "bluejay | Pixel 6a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bluejay-factory-23500002.zip",
+                    "sha256": "https://release.calyxinstitute.org/bluejay-factory-23500002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bluejay-ota_update-23500002.zip",
+                    "sha256": "https://release.calyxinstitute.org/bluejay-ota_update-23500002.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23500000": {
+        "version": "5.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1902",
         "android_version": "14.0",
         "security_patch": "2023-10-05",
@@ -4398,8 +4586,8 @@
             }
         }
     },
-    "4.14.0": {
-        "build": "23414000",
+    "23414000": {
+        "version": "4.14.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1847",
         "android_version": "4.14.0",
         "security_patch": "2023-10-06",
@@ -4606,8 +4794,8 @@
             }
         }
     },
-    "4.13.4": {
-        "build": "23413040",
+    "23413040": {
+        "version": "4.13.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1840",
         "android_version": "13.0",
         "security_patch": "2023-09-01",
@@ -4814,8 +5002,46 @@
             }
         }
     },
-    "4.13.3": {
-        "build": "23413030",
+    "23413032": {
+        "version": "4.13.3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1832",
+        "android_version": "13.0",
+        "security_patch": "2023-09-01",
+        "devices": {
+            "barbet | Pixel 5a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/barbet-factory-23413032.zip",
+                    "sha256": "https://release.calyxinstitute.org/barbet-factory-23413032.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/barbet-ota_update-23413032.zip",
+                    "sha256": "https://release.calyxinstitute.org/barbet-ota_update-23413032.zip.sha256sum"
+                }
+            },
+            "bramble | Pixel 4a (5G)": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bramble-factory-23413032.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-factory-23413032.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bramble-ota_update-23413032.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-ota_update-23413032.zip.sha256sum"
+                }
+            },
+            "redfin | Pixel 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/redfin-factory-23413032.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-factory-23413032.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/redfin-ota_update-23413032.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-ota_update-23413032.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23413030": {
+        "version": "4.13.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1823",
         "android_version": "13.0",
         "security_patch": "2023-09-01",
@@ -4992,8 +5218,8 @@
             }
         }
     },
-    "4.13.2": {
-        "build": "23413020",
+    "23413020": {
+        "version": "4.13.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1815",
         "android_version": "13.0",
         "security_patch": "2023-09-01?",
@@ -5200,8 +5426,8 @@
             }
         }
     },
-    "4.13.1": {
-        "build": "23413010",
+    "23413010": {
+        "version": "4.13.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1814",
         "android_version": "13.0",
         "security_patch": "2023-09-01?",
@@ -5218,8 +5444,8 @@
             }
         }
     },
-    "4.13.0": {
-        "build": "23413000",
+    "23413000": {
+        "version": "4.13.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1809",
         "android_version": "13.0",
         "security_patch": "2023-09-01?",
@@ -5426,8 +5652,8 @@
             }
         }
     },
-    "4.12.2": {
-        "build": "23412020",
+    "23412020": {
+        "version": "4.12.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1804",
         "android_version": "13.0",
         "security_patch": "2022-08-05",
@@ -5634,8 +5860,8 @@
             }
         }
     },
-    "4.12.1": {
-        "build": "23412010",
+    "23412010": {
+        "version": "4.12.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1796",
         "android_version": "13.0",
         "security_patch": "2023-08-05",
@@ -5652,8 +5878,8 @@
             }
         }
     },
-    "4.12.0": {
-        "build": "23412000",
+    "23412000": {
+        "version": "4.12.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1785",
         "android_version": "13.0",
         "security_patch": "2023-08-05",
@@ -5860,15 +6086,15 @@
             }
         }
     },
-    "4.11.2": {
-        "build": "23411020",
+    "23411020": {
+        "version": "4.11.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1772",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
         "devices": {}
     },
-    "4.11.1": {
-        "build": "23411010",
+    "23411010": {
+        "version": "4.11.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1768",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
@@ -5885,8 +6111,8 @@
             }
         }
     },
-    "4.11.3": {
-        "build": "23411030",
+    "23411030": {
+        "version": "4.11.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1753",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
@@ -6093,8 +6319,8 @@
             }
         }
     },
-    "4.11.0": {
-        "build": "23411000",
+    "23411000": {
+        "version": "4.11.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1752",
         "android_version": "13.0",
         "security_patch": "2023-07-05",
@@ -6281,8 +6507,8 @@
             }
         }
     },
-    "4.10.2-2": {
-        "build": "23410022",
+    "23410022": {
+        "version": "4.10.2-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1745",
         "android_version": "13.0",
         "security_patch": "2023-06-05",
@@ -6299,8 +6525,8 @@
             }
         }
     },
-    "4.10.1": {
-        "build": "23410010",
+    "23410010": {
+        "version": "4.10.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1720",
         "android_version": "13.0",
         "security_patch": "2023-06-05",
@@ -6487,8 +6713,8 @@
             }
         }
     },
-    "4.10.0-4": {
-        "build": "23410004",
+    "23410004": {
+        "version": "4.10.0-4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1712",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -6505,8 +6731,8 @@
             }
         }
     },
-    "4.10.0-2": {
-        "build": "23410002",
+    "23410002": {
+        "version": "4.10.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1711",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -6523,8 +6749,8 @@
             }
         }
     },
-    "4.10.0": {
-        "build": "23410000",
+    "23410000": {
+        "version": "4.10.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1709",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -6691,8 +6917,8 @@
             }
         }
     },
-    "4.10.2": {
-        "build": "23410020",
+    "23410020": {
+        "version": "4.10.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1702",
         "android_version": "13.0",
         "security_patch": "2023-06-05",
@@ -6879,8 +7105,258 @@
             }
         }
     },
-    "4.9.4": {
-        "build": "23409040",
+    "23409042": {
+        "version": "4.9.4",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1700",
+        "android_version": "13\\.0",
+        "security_patch": "2023-05-05",
+        "devices": {
+            "lynx | Pixel 7a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/lynx-factory-23409042.zip",
+                    "sha256": "https://release.calyxinstitute.org/lynx-factory-23409042.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/lynx-ota_update-23409042.zip",
+                    "sha256": "https://release.calyxinstitute.org/lynx-ota_update-23409042.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23409032": {
+        "version": "4.9.3-2",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1681",
+        "android_version": "13.0",
+        "security_patch": "2023-05-05",
+        "devices": {
+            "lynx | Pixel 7a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/lynx-factory-23409032.zip",
+                    "sha256": "https://release.calyxinstitute.org/lynx-factory-23409032.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/lynx-ota_update-23409032.zip",
+                    "sha256": "https://release.calyxinstitute.org/lynx-ota_update-23409032.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23409020": {
+        "version": "4.9.2",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1668",
+        "android_version": "13.0",
+        "security_patch": "2023-05-05",
+        "devices": {
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-23409020.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-23409020.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-23409020.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-23409020.zip.sha256sum"
+                }
+            },
+            "axolotl | SHIFT6mq": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/axolotl-factory-23409020.zip",
+                    "sha256": "https://release.calyxinstitute.org/axolotl-factory-23409020.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/axolotl-ota_update-23409020.zip",
+                    "sha256": "https://release.calyxinstitute.org/axolotl-ota_update-23409020.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "230409010": {
+        "version": "4.9.1",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1658",
+        "android_version": "13.0",
+        "security_patch": "2023-05-05",
+        "devices": {
+            "barbet | Pixel 5a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/barbet-factory-230409010.zip",
+                    "sha256": "https://release.calyxinstitute.org/barbet-factory-230409010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/barbet-ota_update-230409010.zip",
+                    "sha256": "https://release.calyxinstitute.org/barbet-ota_update-230409010.zip.sha256sum"
+                }
+            },
+            "bramble | Pixel 4a (5G)": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bramble-factory-230409010.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-factory-230409010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bramble-ota_update-230409010.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-ota_update-230409010.zip.sha256sum"
+                }
+            },
+            "redfin | Pixel 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/redfin-factory-230409010.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-factory-230409010.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/redfin-ota_update-230409010.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-ota_update-230409010.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23409000": {
+        "version": "4.9.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1656",
+        "android_version": "13.0",
+        "security_patch": "2023-05-05",
+        "devices": {
+            "cheetah | Pixel 7 Pro": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/cheetah-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/cheetah-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/cheetah-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/cheetah-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "panther | Pixel 7": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/panther-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/panther-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/panther-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/panther-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "bluejay | Pixel 6a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bluejay-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/bluejay-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bluejay-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/bluejay-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "raven | Pixel 6 Pro": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/raven-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/raven-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/raven-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/raven-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "oriole | Pixel 6": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/oriole-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/oriole-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/oriole-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/oriole-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "FP4 | Fairphone 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/FP4-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-23409000.zip.sha256sum"
+                }
+            },
+            "axolotl | SHIFT6mq": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/axolotl-factory-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/axolotl-factory-23409000.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/axolotl-ota_update-23409000.zip",
+                    "sha256": "https://release.calyxinstitute.org/axolotl-ota_update-23409000.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "23409040": {
+        "version": "4.9.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1647",
         "android_version": "13.0",
         "security_patch": "2023-05-05",
@@ -7057,240 +7533,8 @@
             }
         }
     },
-    "4.9.3-2": {
-        "build": "23409032",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1681",
-        "android_version": "13.0",
-        "security_patch": "2023-05-05",
-        "devices": {
-            "lynx | Pixel 7a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/lynx-factory-23409032.zip",
-                    "sha256": "https://release.calyxinstitute.org/lynx-factory-23409032.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/lynx-ota_update-23409032.zip",
-                    "sha256": "https://release.calyxinstitute.org/lynx-ota_update-23409032.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "4.9.2": {
-        "build": "23409020",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1668",
-        "android_version": "13.0",
-        "security_patch": "2023-05-05",
-        "devices": {
-            "FP4 | Fairphone 4": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/FP4-factory-23409020.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-factory-23409020.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-23409020.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-23409020.zip.sha256sum"
-                }
-            },
-            "axolotl | SHIFT6mq": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/axolotl-factory-23409020.zip",
-                    "sha256": "https://release.calyxinstitute.org/axolotl-factory-23409020.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/axolotl-ota_update-23409020.zip",
-                    "sha256": "https://release.calyxinstitute.org/axolotl-ota_update-23409020.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "4.9.1": {
-        "build": "230409010",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1658",
-        "android_version": "13.0",
-        "security_patch": "2023-05-05",
-        "devices": {
-            "barbet | Pixel 5a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/barbet-factory-230409010.zip",
-                    "sha256": "https://release.calyxinstitute.org/barbet-factory-230409010.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/barbet-ota_update-230409010.zip",
-                    "sha256": "https://release.calyxinstitute.org/barbet-ota_update-230409010.zip.sha256sum"
-                }
-            },
-            "bramble | Pixel 4a (5G)": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/bramble-factory-230409010.zip",
-                    "sha256": "https://release.calyxinstitute.org/bramble-factory-230409010.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/bramble-ota_update-230409010.zip",
-                    "sha256": "https://release.calyxinstitute.org/bramble-ota_update-230409010.zip.sha256sum"
-                }
-            },
-            "redfin | Pixel 5": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/redfin-factory-230409010.zip",
-                    "sha256": "https://release.calyxinstitute.org/redfin-factory-230409010.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/redfin-ota_update-230409010.zip",
-                    "sha256": "https://release.calyxinstitute.org/redfin-ota_update-230409010.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "4.9.0": {
-        "build": "23409000",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1656",
-        "android_version": "13.0",
-        "security_patch": "2023-05-05",
-        "devices": {
-            "cheetah | Pixel 7 Pro": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/cheetah-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/cheetah-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/cheetah-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/cheetah-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "panther | Pixel 7": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/panther-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/panther-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/panther-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/panther-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "bluejay | Pixel 6a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/bluejay-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/bluejay-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/bluejay-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/bluejay-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "raven | Pixel 6 Pro": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/raven-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/raven-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/raven-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/raven-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "oriole | Pixel 6": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/oriole-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/oriole-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/oriole-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/oriole-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "sunfish | Pixel 4a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/sunfish-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "coral | Pixel 4 XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/coral-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/coral-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/coral-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "flame | Pixel 4": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/flame-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/flame-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/flame-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "bonito | Pixel 3a XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/bonito-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/bonito-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "sargo | Pixel 3a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/sargo-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/sargo-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "crosshatch | Pixel 3 XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "blueline | Pixel 3": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/blueline-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/blueline-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "FP4 | Fairphone 4": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/FP4-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/FP4-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/FP4-ota_update-23409000.zip.sha256sum"
-                }
-            },
-            "axolotl | SHIFT6mq": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/axolotl-factory-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/axolotl-factory-23409000.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/axolotl-ota_update-23409000.zip",
-                    "sha256": "https://release.calyxinstitute.org/axolotl-ota_update-23409000.zip.sha256sum"
-                }
-            }
-        }
-    },
-    "4.8.3": {
-        "build": "23408030",
+    "23408030": {
+        "version": "4.8.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1615",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7467,8 +7711,8 @@
             }
         }
     },
-    "4.8.2": {
-        "build": "23408020",
+    "23408020": {
+        "version": "4.8.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1614",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7485,8 +7729,8 @@
             }
         }
     },
-    "4.8.1": {
-        "build": "23408010",
+    "23408010": {
+        "version": "4.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1610",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7553,8 +7797,8 @@
             }
         }
     },
-    "4.8.0": {
-        "build": "23408000",
+    "23408000": {
+        "version": "4.8.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1609",
         "android_version": "13.0",
         "security_patch": "2023-04-05",
@@ -7671,8 +7915,8 @@
             }
         }
     },
-    "4.7.7": {
-        "build": "23407070",
+    "23407070": {
+        "version": "4.7.7",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1605",
         "android_version": "13.0",
         "security_patch": "2022-03-05",
@@ -7839,8 +8083,8 @@
             }
         }
     },
-    "4.7.5": {
-        "build": "23407050",
+    "23407050": {
+        "version": "4.7.5",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1574",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8017,8 +8261,8 @@
             }
         }
     },
-    "4.7.4": {
-        "build": "23407040",
+    "23407040": {
+        "version": "4.7.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1560",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8055,8 +8299,8 @@
             }
         }
     },
-    "4.7.3": {
-        "build": "23407030",
+    "23407030": {
+        "version": "4.7.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1546",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8093,8 +8337,8 @@
             }
         }
     },
-    "4.7.2": {
-        "build": "22407020",
+    "22407020": {
+        "version": "4.7.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1545",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8161,8 +8405,8 @@
             }
         }
     },
-    "4.7.1": {
-        "build": "23407010",
+    "23407010": {
+        "version": "4.7.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1539",
         "android_version": "13.0",
         "security_patch": "2022-02-05",
@@ -8199,8 +8443,8 @@
             }
         }
     },
-    "4.7.0": {
-        "build": "23407000",
+    "23407000": {
+        "version": "4.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1537",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8327,8 +8571,8 @@
             }
         }
     },
-    "4.7.6": {
-        "build": "23407060",
+    "23407060": {
+        "version": "4.7.6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1536",
         "android_version": "13.0",
         "security_patch": "2023-03-05",
@@ -8495,8 +8739,8 @@
             }
         }
     },
-    "4.6.1": {
-        "build": "23406010",
+    "23406010": {
+        "version": "4.6.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1511",
         "android_version": "13.0",
         "security_patch": "2023-02-05",
@@ -8553,8 +8797,8 @@
             }
         }
     },
-    "4.5.2": {
-        "build": "23405020",
+    "23405020": {
+        "version": "4.5.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1461",
         "android_version": "13.0",
         "security_patch": "2023-01-05",
@@ -8571,8 +8815,8 @@
             }
         }
     },
-    "4.6.0": {
-        "build": "23406000",
+    "23406000": {
+        "version": "4.6.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1432",
         "android_version": "13.0",
         "security_patch": "2023-02-05",
@@ -8749,8 +8993,8 @@
             }
         }
     },
-    "4.5.1": {
-        "build": "22405010",
+    "22405010": {
+        "version": "4.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1431",
         "android_version": "13.0",
         "security_patch": "2022-01-05",
@@ -8917,8 +9161,8 @@
             }
         }
     },
-    "4.5.0": {
-        "build": "22405000",
+    "22405000": {
+        "version": "4.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1412",
         "android_version": "13.0",
         "security_patch": "2023-01-05",
@@ -9085,8 +9329,8 @@
             }
         }
     },
-    "4.4.1": {
-        "build": "22404010",
+    "22404010": {
+        "version": "4.4.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1396",
         "android_version": "13",
         "security_patch": "2022-12-05",
@@ -9253,8 +9497,8 @@
             }
         }
     },
-    "4.4.0": {
-        "build": "22404000",
+    "22404000": {
+        "version": "4.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1377",
         "android_version": "13.0 QPR1",
         "security_patch": "2022-12-05",
@@ -9421,8 +9665,8 @@
             }
         }
     },
-    "4.3.2-2": {
-        "build": "22403022",
+    "22403022": {
+        "version": "4.3.2-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1367",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9459,8 +9703,8 @@
             }
         }
     },
-    "4.3.2": {
-        "build": "22403020",
+    "22403020": {
+        "version": "4.3.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1366",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9597,8 +9841,8 @@
             }
         }
     },
-    "4.3.1-2": {
-        "build": "22403012",
+    "22403012": {
+        "version": "4.3.1-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1358",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9635,8 +9879,8 @@
             }
         }
     },
-    "4.3.1": {
-        "build": "22403010",
+    "22403010": {
+        "version": "4.3.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1357",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9753,8 +9997,46 @@
             }
         }
     },
-    "4.3.0": {
-        "build": "22403000",
+    "22403002": {
+        "version": "4.3.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1319",
+        "android_version": "13.0",
+        "security_patch": "2022-11-05",
+        "devices": {
+            "bluejay | Pixel 6a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bluejay-factory-22403002.zip",
+                    "sha256": "https://release.calyxinstitute.org/bluejay-factory-22403002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bluejay-ota_update-22403002.zip",
+                    "sha256": "https://release.calyxinstitute.org/bluejay-ota_update-22403002.zip.sha256sum"
+                }
+            },
+            "raven | Pixel 6 Pro": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/raven-factory-22403002.zip",
+                    "sha256": "https://release.calyxinstitute.org/raven-factory-22403002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/raven-ota_update-22403002.zip",
+                    "sha256": "https://release.calyxinstitute.org/raven-ota_update-22403002.zip.sha256sum"
+                }
+            },
+            "oriole | Pixel 6": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/oriole-factory-22403002.zip",
+                    "sha256": "https://release.calyxinstitute.org/oriole-factory-22403002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/oriole-ota_update-22403002.zip",
+                    "sha256": "https://release.calyxinstitute.org/oriole-ota_update-22403002.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "22403000": {
+        "version": "4.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1318",
         "android_version": "13.0",
         "security_patch": "2022-11-05",
@@ -9891,8 +10173,8 @@
             }
         }
     },
-    "4.2.7": {
-        "build": "22402070",
+    "22402070": {
+        "version": "4.2.7",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1300",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10059,8 +10341,8 @@
             }
         }
     },
-    "4.2.6": {
-        "build": "22402060",
+    "22402060": {
+        "version": "4.2.6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1287",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10227,8 +10509,8 @@
             }
         }
     },
-    "4.2.5": {
-        "build": "22402050",
+    "22402050": {
+        "version": "4.2.5",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1280",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10265,8 +10547,8 @@
             }
         }
     },
-    "4.2.4": {
-        "build": "22402040",
+    "22402040": {
+        "version": "4.2.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1276",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10293,8 +10575,8 @@
             }
         }
     },
-    "4.2.3": {
-        "build": "22402030",
+    "22402030": {
+        "version": "4.2.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1251",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10391,8 +10673,8 @@
             }
         }
     },
-    "4.2.2": {
-        "build": "22402020",
+    "22402020": {
+        "version": "4.2.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1228",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10409,8 +10691,8 @@
             }
         }
     },
-    "4.2.1": {
-        "build": "22402010",
+    "22402010": {
+        "version": "4.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1217",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10427,8 +10709,8 @@
             }
         }
     },
-    "4.1.9-2": {
-        "build": "22401092",
+    "22401092": {
+        "version": "4.1.9-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1215",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10445,8 +10727,8 @@
             }
         }
     },
-    "4.2.0 :sunglasses: ": {
-        "build": "22402000",
+    "22402000": {
+        "version": "4.2.0 :sunglasses: ",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1212",
         "android_version": "13.0",
         "security_patch": "2022-10-05",
@@ -10543,8 +10825,8 @@
             }
         }
     },
-    "4.1.8": {
-        "build": "22401080",
+    "22401080": {
+        "version": "4.1.8",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1203",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10561,8 +10843,8 @@
             }
         }
     },
-    "4.1.7": {
-        "build": "22401070",
+    "22401070": {
+        "version": "4.1.7",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1201",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10579,8 +10861,8 @@
             }
         }
     },
-    "4.1.6": {
-        "build": "22401060",
+    "22401060": {
+        "version": "4.1.6",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1196",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10677,8 +10959,8 @@
             }
         }
     },
-    "4.1.5": {
-        "build": "220401050",
+    "220401050": {
+        "version": "4.1.5",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1194",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10705,8 +10987,8 @@
             }
         }
     },
-    "4.1.4": {
-        "build": "22401040",
+    "22401040": {
+        "version": "4.1.4",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1187",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10803,8 +11085,8 @@
             }
         }
     },
-    "4.1.3": {
-        "build": "22401030",
+    "22401030": {
+        "version": "4.1.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1185",
         "android_version": "12.0",
         "security_patch": "2022-09-05",
@@ -10881,8 +11163,8 @@
             }
         }
     },
-    "4.1.2": {
-        "build": "22401020",
+    "22401020": {
+        "version": "4.1.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1179",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10899,8 +11181,8 @@
             }
         }
     },
-    "4.1.1": {
-        "build": "22401010",
+    "22401010": {
+        "version": "4.1.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1178",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10927,8 +11209,8 @@
             }
         }
     },
-    "4.1.0": {
-        "build": "22401000",
+    "22401000": {
+        "version": "4.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1174",
         "android_version": "13.0",
         "security_patch": "2022-09-05",
@@ -10995,8 +11277,8 @@
             }
         }
     },
-    "3.9.0": {
-        "build": "22309000",
+    "22309000": {
+        "version": "3.9.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1169",
         "android_version": "12L",
         "security_patch": "2022-09-01",
@@ -11143,8 +11425,8 @@
             }
         }
     },
-    "3.8.0-2": {
-        "build": "22308020",
+    "22308020": {
+        "version": "3.8.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1156",
         "android_version": "12L",
         "security_patch": "2022-08-05",
@@ -11291,8 +11573,8 @@
             }
         }
     },
-    "3.7.3": {
-        "build": "22307032",
+    "22307032": {
+        "version": "3.7.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1131",
         "android_version": "12.0",
         "security_patch": "2022-07-05 (2022-06-01)",
@@ -11309,8 +11591,8 @@
             }
         }
     },
-    "3.7.2": {
-        "build": "22307020",
+    "22307020": {
+        "version": "3.7.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1106",
         "android_version": "12L",
         "security_patch": "2022-07-05",
@@ -11447,8 +11729,8 @@
             }
         }
     },
-    "3.7.0": {
-        "build": "22307002",
+    "22307002": {
+        "version": "3.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1065",
         "android_version": "12L",
         "security_patch": "2022-07-05",
@@ -11575,8 +11857,8 @@
             }
         }
     },
-    "3.6.0-2": {
-        "build": "22306002",
+    "22306002": {
+        "version": "3.6.0-2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1030",
         "android_version": "12.0",
         "security_patch": "2022-06-05",
@@ -11703,8 +11985,8 @@
             }
         }
     },
-    "3.6.0": {
-        "build": "22306000",
+    "22306000": {
+        "version": "3.6.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1029",
         "android_version": "12.0",
         "security_patch": "2022-06-05",
@@ -11831,8 +12113,8 @@
             }
         }
     },
-    "3.5.1": {
-        "build": "22305010",
+    "22305010": {
+        "version": "3.5.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/1002",
         "android_version": "12.0",
         "security_patch": "2022-05-05",
@@ -11999,8 +12281,8 @@
             }
         }
     },
-    "3.5.0": {
-        "build": "22305000",
+    "22305000": {
+        "version": "3.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/996",
         "android_version": "12L",
         "security_patch": "2022-05-05",
@@ -12167,8 +12449,8 @@
             }
         }
     },
-    "3.4.0": {
-        "build": "22304000",
+    "22304000": {
+        "version": "3.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/966",
         "android_version": "12L",
         "security_patch": "2022-04-05",
@@ -12295,8 +12577,8 @@
             }
         }
     },
-    "3.3.2": {
-        "build": "22303020",
+    "22303020": {
+        "version": "3.3.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/962",
         "android_version": "12L",
         "security_patch": "2022-03-05",
@@ -12333,8 +12615,8 @@
             }
         }
     },
-    "3.3.1": {
-        "build": "22303010",
+    "22303010": {
+        "version": "3.3.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/949",
         "android_version": "12.1",
         "security_patch": "2022-03-05",
@@ -12361,8 +12643,144 @@
             }
         }
     },
-    "3.3.0": {
-        "build": "22303000",
+    "22303004": {
+        "version": "3.3.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/931",
+        "android_version": "12.0 (12.1/12L)",
+        "security_patch": "2022-03-05",
+        "devices": {
+            "barbet | Pixel 5a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/barbet-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/barbet-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/barbet-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/barbet-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "bramble | Pixel 4a (5G)": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bramble-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bramble-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "redfin | Pixel 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/redfin-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/redfin-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-22303004.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-22303004.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-22303004.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-22303004.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "22303002": {
+        "version": "3.3.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/930",
+        "android_version": "12.0 (12.1/12L)",
+        "security_patch": "2022-03-05",
+        "devices": {
+            "raven | Pixel 6 Pro": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/raven-factory-22303002.zip",
+                    "sha256": "https://release.calyxinstitute.org/raven-factory-22303002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/raven-ota_update-22303002.zip",
+                    "sha256": "https://release.calyxinstitute.org/raven-ota_update-22303002.zip.sha256sum"
+                }
+            },
+            "oriole | Pixel 6": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/oriole-factory-22303002.zip",
+                    "sha256": "https://release.calyxinstitute.org/oriole-factory-22303002.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/oriole-ota_update-22303002.zip",
+                    "sha256": "https://release.calyxinstitute.org/oriole-ota_update-22303002.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "22303000": {
+        "version": "3.3.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/924",
         "android_version": "12.0 (12.1/12L)",
         "security_patch": "2022-03-05",
@@ -12489,8 +12907,8 @@
             }
         }
     },
-    "3.2.2": {
-        "build": "22302020",
+    "22302020": {
+        "version": "3.2.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/918",
         "android_version": "12.0",
         "security_patch": "2022-02-05",
@@ -12517,8 +12935,8 @@
             }
         }
     },
-    "3.2.1": {
-        "build": "22302010",
+    "22302010": {
+        "version": "3.2.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/910",
         "android_version": "12.0",
         "security_patch": "2022-02-05",
@@ -12545,8 +12963,8 @@
             }
         }
     },
-    "2.14.0": {
-        "build": "22214000",
+    "22214000": {
+        "version": "2.14.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/893",
         "android_version": "11.0",
         "security_patch": "2022-02-05",
@@ -12583,8 +13001,8 @@
             }
         }
     },
-    "3.2.0": {
-        "build": "22302000",
+    "22302000": {
+        "version": "3.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/887",
         "android_version": "12.0",
         "security_patch": "2022-02-05",
@@ -12711,8 +13129,8 @@
             }
         }
     },
-    "2.13.0": {
-        "build": "22213000",
+    "22213000": {
+        "version": "2.13.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/843",
         "android_version": "11.0",
         "security_patch": "2022-01-05",
@@ -12749,8 +13167,8 @@
             }
         }
     },
-    "3.1.1": {
-        "build": "22301010",
+    "22301010": {
+        "version": "3.1.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/841",
         "android_version": "12.0",
         "security_patch": "2022-01-05",
@@ -12777,8 +13195,8 @@
             }
         }
     },
-    "3.1.0": {
-        "build": "22301000",
+    "22301000": {
+        "version": "3.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/839",
         "android_version": "12.0",
         "security_patch": "2022-01-05",
@@ -12885,8 +13303,8 @@
             }
         }
     },
-    "3.0.0": {
-        "build": "22300000",
+    "22300000": {
+        "version": "3.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/819",
         "android_version": "12.0",
         "security_patch": "2021-12-05",
@@ -13013,8 +13431,8 @@
             }
         }
     },
-    "2.11.0": {
-        "build": "202112110",
+    "202112110": {
+        "version": "2.11.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/759",
         "android_version": "11.0",
         "security_patch": "2021-11-01",
@@ -13151,8 +13569,8 @@
             }
         }
     },
-    "2.10.0": {
-        "build": "202102100",
+    "202102100": {
+        "version": "2.10.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/726",
         "android_version": "11.0",
         "security_patch": "2021-10-01",
@@ -13289,8 +13707,8 @@
             }
         }
     },
-    "2.9.0": {
-        "build": "202109290",
+    "202109290": {
+        "version": "2.9.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/688",
         "android_version": "11.0",
         "security_patch": "2021-09-05",
@@ -13428,7 +13846,7 @@
         }
     },
     "2.8.3": {
-        "build": "2.8.3",
+        "version": "2.8.3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/687",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -13446,7 +13864,7 @@
         }
     },
     "2.8.2": {
-        "build": "2.8.2",
+        "version": "2.8.2",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/654",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -13574,7 +13992,7 @@
         }
     },
     "2.8.1": {
-        "build": "2.8.1",
+        "version": "2.8.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/646",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -13702,7 +14120,7 @@
         }
     },
     "2.8.0": {
-        "build": "2.8.0",
+        "version": "2.8.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/608",
         "android_version": "11.0",
         "security_patch": "2021-08-05",
@@ -13830,7 +14248,7 @@
         }
     },
     "2.7.1": {
-        "build": "2.7.1",
+        "version": "2.7.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/584",
         "android_version": "11.0",
         "security_patch": "2021-07-05",
@@ -13848,7 +14266,7 @@
         }
     },
     "2.7.0": {
-        "build": "2.7.0",
+        "version": "2.7.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/569",
         "android_version": "11.0",
         "security_patch": "2021-07-05",
@@ -13976,7 +14394,7 @@
         }
     },
     "2.6.1": {
-        "build": "2.6.1",
+        "version": "2.6.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/467",
         "android_version": "11.0",
         "security_patch": "2021-06-05",
@@ -14103,8 +14521,8 @@
             }
         }
     },
-    "2.5.0": {
-        "build": "2021.05.05.12",
+    "2021.05.05.12": {
+        "version": "2.5.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/424",
         "android_version": "11.0",
         "security_patch": "2021-05-05",
@@ -14231,8 +14649,8 @@
             }
         }
     },
-    "2.4.0": {
-        "build": "2021.04.07.18",
+    "2021.04.07.18": {
+        "version": "2.4.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/396",
         "android_version": "11.0",
         "security_patch": "2021-04-05",
@@ -14359,8 +14777,180 @@
             }
         }
     },
-    "2.2.0": {
-        "build": "2021.02.02.18",
+    "2021.03.29.19": {
+        "version": "2.2.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/389",
+        "android_version": "11.0.0",
+        "security_patch": "2021-03-05",
+        "devices": {
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.03.29.19.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.03.29.19.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.03.29.19.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.03.29.19.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2021.03.18.10": {
+        "version": "2.2.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/374",
+        "android_version": "11.0.0",
+        "security_patch": "2021-03-05",
+        "devices": {
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.03.18.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.03.18.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.03.18.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.03.18.10.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2021.03.04.13": {
+        "version": "2.2.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/361",
+        "android_version": "11.0",
+        "security_patch": "2021-03-05",
+        "devices": {
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-2021.03.04.13.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-2021.03.04.13.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-2021.03.04.13.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-2021.03.04.13.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2021.03.03.09": {
+        "version": "2.2.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/360",
+        "android_version": "11.0",
+        "security_patch": "2021-03-05",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "redfin | Pixel 5": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/redfin-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/redfin-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/redfin-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "bramble | Pixel 4a (5G)": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bramble-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bramble-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/bramble-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.03.03.09.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.03.03.09.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.03.03.09.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2021.02.02.18": {
+        "version": "2.2.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/335",
         "android_version": "11.0",
         "security_patch": "2021-02-05",
@@ -14487,8 +15077,33 @@
             }
         }
     },
-    "2.1.0": {
-        "build": "2021.01.06.14",
+    "2021.01.25.15": {
+        "version": "2.1.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/322",
+        "android_version": "11.0",
+        "security_patch": "2021-01-05",
+        "devices": {}
+    },
+    "2021.01.08.12": {
+        "version": "2.1.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/273",
+        "android_version": "11.0.0",
+        "security_patch": "2021-01-05",
+        "devices": {
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.01.08.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2021.01.08.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.01.08.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2021.01.08.12.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2021.01.06.14": {
+        "version": "2.1.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/271",
         "android_version": "11.0.0",
         "security_patch": "2021-01-05",
@@ -14585,8 +15200,8 @@
             }
         }
     },
-    "2.0.1": {
-        "build": "2020.12.30.12",
+    "2020.12.30.12": {
+        "version": "2.0.1",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/265",
         "android_version": "11.0.0",
         "security_patch": "2020-12-05",
@@ -14683,106 +15298,142 @@
             }
         }
     },
-    "1.0.0": {
-        "build": "2020.08.04.12",
-        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/151",
-        "android_version": "10.0",
-        "security_patch": "2020-08-05",
+    "2020.12.17.20": {
+        "version": "1.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/261",
+        "android_version": "10.0.0",
+        "security_patch": "2020-12-05",
         "devices": {
-            "taimen | Pixel 2 XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "walleye | Pixel 2": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "crosshatch | Pixel 3 XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "blueline | Pixel 3": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "bonito | Pixel 3a XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "sargo | Pixel 3a": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "coral | Pixel 4 XL": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
-            "flame | Pixel 4": {
-                "factory": {
-                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.08.04.12.zip.sha256sum"
-                },
-                "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.08.04.12.zip.sha256sum"
-                }
-            },
             "jasmine_sprout | Mi A2": {
                 "factory": {
-                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.08.04.12.zip.sha256sum"
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.12.17.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.12.17.20.zip.sha256sum"
                 },
                 "full_ota": {
-                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.08.04.12.zip",
-                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.08.04.12.zip.sha256sum"
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.12.17.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.12.17.20.zip.sha256sum"
                 }
             }
         }
     },
-    "2.0.0": {
-        "build": "2020.12.12.21",
+    "2020.12.16.17": {
+        "version": "1.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/260",
+        "android_version": "10.0.0",
+        "security_patch": "2020-12-05",
+        "devices": {
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.12.16.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.12.16.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.12.16.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.12.16.17.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.12.15.20": {
+        "version": "2.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/258",
+        "android_version": "11.0.0",
+        "security_patch": "2012-12-05",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            },
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-2020.12.15.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-2020.12.15.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-2020.12.15.20.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.12.12.21": {
+        "version": "2.0.0",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/255",
         "android_version": "11.0.0",
         "security_patch": "2020-12-05",
@@ -14879,8 +15530,348 @@
             }
         }
     },
-    "1.0.0 (Finally!)": {
-        "build": "2020.07.07.12",
+    "2020.11.04.17": {
+        "version": "1.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/222",
+        "android_version": "10.0",
+        "security_patch": "2020-11-05",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.11.04.17.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.11.04.17.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.11.04.17.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.09.24.12": {
+        "version": "1.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/203",
+        "android_version": "10.0",
+        "security_patch": "2020-09-05",
+        "devices": {
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.09.24.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.09.24.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.09.24.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.09.24.12.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.09.22.12": {
+        "version": "1.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/202",
+        "android_version": "10.0",
+        "security_patch": "2020-09-05",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "sunfish | Pixel 4a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sunfish-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sunfish-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.09.22.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.09.22.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.09.22.12.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.08.04.12": {
+        "version": "1.0.0",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/151",
+        "android_version": "10.0",
+        "security_patch": "2020-08-05",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.08.04.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.08.04.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.08.04.12.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.07.07.18": {
+        "version": "1.0.0 (Finally!)",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/136",
+        "android_version": "10.0 ",
+        "security_patch": "2020-07-05",
+        "devices": {
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.07.07.18.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.07.07.18.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.07.07.18.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.07.07.18.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.07.07.12": {
+        "version": "1.0.0 (Finally!)",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/135",
         "android_version": "10.0 ",
         "security_patch": "2020-07-05",
@@ -14967,8 +15958,325 @@
             }
         }
     },
-    "1.0.0-beta3": {
-        "build": "2020.04.07.17",
+    "2020.06.03.12": {
+        "version": "1.0.0-beta3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/118",
+        "android_version": "10.0",
+        "security_patch": "2020-06-05",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.06.03.12.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.06.03.12.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.06.03.12.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.06.01.13": {
+        "version": "1.0.0-beta3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/117",
+        "android_version": "10.0",
+        "security_patch": "2020-05-05",
+        "devices": {
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.06.01.13.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.06.01.13.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.06.01.13.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.06.01.13.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.05.26.20": {
+        "version": "1.0.0-beta3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/116",
+        "android_version": "10.0",
+        "security_patch": "2020-05-05",
+        "devices": {
+            "coral | Pixel 4 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/coral-factory-2020.05.26.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-factory-2020.05.26.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/coral-ota_update-2020.05.26.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/coral-ota_update-2020.05.26.20.zip.sha256sum"
+                }
+            },
+            "flame | Pixel 4": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/flame-factory-2020.05.26.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-factory-2020.05.26.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/flame-ota_update-2020.05.26.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/flame-ota_update-2020.05.26.20.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.05.26.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.05.26.20.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.05.26.20.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.05.26.20.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.05.06.14": {
+        "version": "1.0.0-beta3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/115",
+        "android_version": "10.0",
+        "security_patch": "2020-05-05",
+        "devices": {}
+    },
+    "2020.04.30.10": {
+        "version": "1.0.0-beta3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/113",
+        "android_version": "10.0",
+        "security_patch": "April 2020",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.04.30.10.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.04.30.10.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.04.30.10.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.04.22.16": {
+        "version": "1.0.0-beta3",
+        "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/112",
+        "android_version": "10.0",
+        "security_patch": "April 2020",
+        "devices": {
+            "taimen | Pixel 2 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/taimen-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/taimen-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/taimen-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            },
+            "walleye | Pixel 2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/walleye-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/walleye-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/walleye-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            },
+            "crosshatch | Pixel 3 XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/crosshatch-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            },
+            "blueline | Pixel 3": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/blueline-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/blueline-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/blueline-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            },
+            "bonito | Pixel 3a XL": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/bonito-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/bonito-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/bonito-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            },
+            "sargo | Pixel 3a": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/sargo-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/sargo-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/sargo-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            },
+            "jasmine_sprout | Mi A2": {
+                "factory": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-factory-2020.04.22.16.zip.sha256sum"
+                },
+                "full_ota": {
+                    "zip": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.04.22.16.zip",
+                    "sha256": "https://release.calyxinstitute.org/jasmine_sprout-ota_update-2020.04.22.16.zip.sha256sum"
+                }
+            }
+        }
+    },
+    "2020.04.07.17": {
+        "version": "1.0.0-beta3",
         "issue_url": "https://gitlab.com/CalyxOS/calyxos/-/issues/111",
         "android_version": "10.0",
         "security_patch": "April 2020",
@@ -15045,5 +16353,5 @@
             }
         }
     },
-    "last_update": "2024-06-21 19:13:30.221322+00:00"
+    "last_update": "2024-06-22 06:58:09.166211+00:00"
 }
